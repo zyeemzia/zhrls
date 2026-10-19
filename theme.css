@@ -1,0 +1,26 @@
+/* ZHRLS — "people hex": deep berry, rose and teal; connected-circles motif. */
+:root {
+  --bg: #f6f5f6; --surface: #ffffff; --surface-2: #ecebec; --ink: #1f0e16; --ink-2: #605359; --ink-3: #6e6368; --line: #dedbdd;
+  --accent: #a82c63; --accent-ink: #ffffff; --accent-soft: #f4e4eb; --accent-2: #13777a; --accent-2-soft: #deecec;
+  --good: #1d7a4b; --good-soft: #dcf1e4; --bad: #b42a2a; --bad-soft: #f9e2e0; --warn: #b77800; --warn-soft: #fbefd3; --on-status: #ffffff;
+  --hero-bg: #24101a; --hero-ink: #fff9fb; --hero-ink-2: #b2abaf; --hero-accent: #ff86b8;
+  --motif: radial-gradient(circle at 82% 28%, rgba(255,134,184,0.24), transparent 46%), radial-gradient(circle at 12% 88%, rgba(95,214,210,0.16), transparent 42%), repeating-linear-gradient(135deg, transparent 0 38px, rgba(255,134,184,0.07) 38px 39px);
+  --sg-line: #504048; --sg-accent: #ff86b8; --sg-accent-2: #5fd6d2; --sg-node: #2b1721; --sg-ink: #fff9fb; --sg-ink-2: #b2abaf;
+  --f-display: "Archivo", "IBM Plex Sans", "Segoe UI", sans-serif; --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; --f-mono: "IBM Plex Mono", Consolas, monospace;
+  --radius: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+  --bg: #14090e; --surface: #1d0d15; --surface-2: #2f1c25; --ink: #fff8fb; --ink-2: #b9b3b6; --ink-3: #948a8f; --line: #3e2d35;
+  --accent: #ff86b8; --accent-ink: #14090e; --accent-soft: #432230; --accent-2: #5fd6d2; --accent-2-soft: #202a2d;
+  --good: #5bd39a; --good-soft: #10301f; --bad: #ff7a7a; --bad-soft: #3a1616; --warn: #f2b84c; --warn-soft: #3a2c10; --on-status: #14090e;
+  color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14090e; --surface: #1d0d15; --surface-2: #2f1c25; --ink: #fff8fb; --ink-2: #b9b3b6; --ink-3: #948a8f; --line: #3e2d35;
+  --accent: #ff86b8; --accent-ink: #14090e; --accent-soft: #432230; --accent-2: #5fd6d2; --accent-2-soft: #202a2d;
+  --good: #5bd39a; --good-soft: #10301f; --bad: #ff7a7a; --bad-soft: #3a1616; --warn: #f2b84c; --warn-soft: #3a2c10; --on-status: #14090e;
+  color-scheme: dark;
+}
+.hero h1, .mod-num, .mod-big, .bb-cover b { font-stretch: 112%; }
