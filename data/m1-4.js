@@ -26,7 +26,7 @@ TRACK.modules.push({
    "blocks": [
     {
      "type": "text",
-     "text": "Every organisation, from a 40-person software house in Banani to a 6,000-worker knitwear group in Narayanganj, depends on people turning up, knowing what to do, being able to do it and wanting to do it well. **Human resource management (HRM)** is the discipline that makes this happen deliberately rather than by luck. In 2026 it is less about files and forms and more about designing a people system that helps the business win and treats people fairly."
+     "text": "Every organisation, from a 40-person software house in Banani to a 6,000-worker knitwear group in Narayanganj, depends on people turning up, knowing what to do, being able to do it and wanting to do it well. **Human resource management (HRM)** is the discipline that makes this happen deliberately rather than by luck. In 2026 it is less about files and forms and more about designing a people system that helps the business win and treats people fairly, in a world of hybrid work, AI-enabled tools, skills shortages and rising expectations of transparency."
     },
     {
      "type": "callout",
@@ -59,6 +59,43 @@ TRACK.modules.push({
        ]
       }
      ]
+    },
+    {
+     "type": "timeline",
+     "title": "How the HR function has evolved",
+     "items": [
+      {
+       "when": "Early 1900s",
+       "label": "Welfare and labour officers",
+       "text": "Factory welfare, safety and hiring records"
+      },
+      {
+       "when": "1940s–1970s",
+       "label": "Personnel administration",
+       "text": "Policies, payroll, industrial relations and compliance"
+      },
+      {
+       "when": "1980s",
+       "label": "Human resource management",
+       "text": "People seen as a source of advantage and linked to strategy"
+      },
+      {
+       "when": "Late 1990s",
+       "label": "Business partner model",
+       "text": "HR business partners, centres of expertise, shared services"
+      },
+      {
+       "when": "2010s",
+       "label": "Analytics and experience",
+       "text": "People analytics, cloud HR systems, employee experience"
+      },
+      {
+       "when": "2020s",
+       "label": "Hybrid, skills and AI",
+       "text": "Hybrid work, skills-based practices, AI-enabled HR, new transparency rules"
+      }
+     ],
+     "caption": "Each stage added to the last rather than replacing it: records and compliance still matter, but HR is now judged on strategy, evidence and employee experience. Dates are approximate and vary by country."
     },
     {
      "type": "layers",
@@ -115,8 +152,9 @@ TRACK.modules.push({
      "title": "The model is a starting point, not a rule"
     },
     {
-     "type": "flow",
+     "type": "cycle",
      "title": "The employee lifecycle",
+     "center": "People system",
      "items": [
       {
        "label": "Plan",
@@ -135,18 +173,19 @@ TRACK.modules.push({
        "text": "Grow capability and careers"
       },
       {
-       "label": "Perform and reward",
+       "label": "Perform & reward",
        "text": "Set goals, give feedback, pay fairly"
       },
       {
-       "label": "Retain and engage",
+       "label": "Engage & retain",
        "text": "Keep good people involved and well"
       },
       {
-       "label": "Exit",
+       "label": "Exit & alumni",
        "text": "Leave well, learn why, keep the door open"
       }
-     ]
+     ],
+     "caption": "The loop closes because what you learn at exit (why people leave, what alumni say) feeds the next workforce plan and the employer brand. Former employees who return re-enter at Attract."
     },
     {
      "type": "framework",
@@ -205,6 +244,12 @@ TRACK.modules.push({
      "kind": "example",
      "text": "A Chattogram shipping agent loses 30% of its new customer-service hires within six months. The exit interviews point to unclear job expectations (Align), over-selling the job at interview (Attract), a one-day induction (Develop) and a supervisor who only gives negative feedback (Lead). A pay rise alone (Reward) would not have solved it.",
      "title": "One problem, many cells"
+    },
+    {
+     "type": "callout",
+     "kind": "insight",
+     "title": "Five forces reshaping HR in 2026",
+     "text": "**Skills**: more organisations describe work as skills as well as jobs, so they can redeploy people faster. **AI**: tools now draft, screen, answer and predict, which raises questions of fairness, transparency and human oversight. **Hybrid and flexible work** has changed how teams connect and how managers lead. **Transparency**: pay transparency laws, AI rules and reporting standards expect organisations to explain people decisions with evidence. **Listening**: employees expect to be heard continuously, not once a year. Each force appears in the modules that follow."
     },
     {
      "type": "keypoints",
@@ -279,6 +324,17 @@ TRACK.modules.push({
        "term": "Line manager",
        "def": "The person to whom an employee directly reports, who carries day-to-day responsibility for managing that employee."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "HRM designs the people system; line managers run most of it every day.",
+      "Operating models combine business partners, centres of expertise, shared services and capable managers; small organisations cover the same roles with fewer people.",
+      "The employee lifecycle is a loop: what you learn at exit feeds planning and attraction.",
+      "Use the People Hive as a diagnostic map: most people problems have causes in several cells.",
+      "Skills, AI, hybrid work, transparency and continuous listening now shape every cell."
      ]
     },
     {
@@ -454,8 +510,53 @@ TRACK.modules.push({
        "Turnaround",
        "Focus, cost control, trust",
        "Transparent communication, fair selection for redundancy, retention of critical talent"
+      ],
+      [
+       "AI-enabled transformation",
+       "Reskilling, job redesign, trust",
+       "Skills mapping, internal mobility, open consultation, responsible-use rules, change leadership"
       ]
      ]
+    },
+    {
+     "type": "matrix",
+     "title": "Prioritising people initiatives",
+     "x": "Feasibility (cost, capacity, time)",
+     "y": "Impact on strategic goals",
+     "quadrants": [
+      {
+       "title": "Plan and resource",
+       "items": [
+        "High impact but hard to do",
+        "Phase it; secure budget and a sponsor",
+        "Example: leadership academy"
+       ]
+      },
+      {
+       "title": "Priorities now",
+       "items": [
+        "High impact and doable",
+        "The three to five on the page",
+        "Example: structured hiring for field sales"
+       ]
+      },
+      {
+       "title": "Drop or park",
+       "items": [
+        "Low impact and hard to do",
+        "Example: redesigning the HR intranet"
+       ]
+      },
+      {
+       "title": "Quick wins, if cheap",
+       "items": [
+        "Easy but low impact",
+        "Do only if they free time or build trust",
+        "Example: a new uniform policy"
+       ]
+      }
+     ],
+     "caption": "Score each candidate initiative on both axes with the executive team. The top-right quadrant becomes the people strategy on a page; top-left items need a phased plan; bottom-left items are parked openly so no one wonders why."
     },
     {
      "type": "framework",
@@ -593,6 +694,16 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Strategic HRM starts from the business strategy: what must be true about people, capabilities and culture for it to work?",
+      "Use best practice as the fair floor and best fit to choose where to invest.",
+      "Build bundles that develop ability, motivation and opportunity together, and keep practices consistent with each other.",
+      "A people strategy on a page has three to five priorities, each with initiatives, owners and measures."
+     ]
+    },
+    {
      "type": "quiz",
      "items": [
       {
@@ -671,8 +782,9 @@ TRACK.modules.push({
      "text": "**Workforce planning** makes sure the organisation has the right people, with the right skills, in the right places, at the right cost and time. It turns a vague worry (\"we'll need more engineers\") into numbers, options and decisions. Done well, it is the bridge between the people strategy on a page and the recruitment, learning and reward plans that follow."
     },
     {
-     "type": "flow",
+     "type": "cycle",
      "title": "The workforce planning cycle",
+     "center": "Workforce plan",
      "items": [
       {
        "label": "Understand strategy",
@@ -695,10 +807,11 @@ TRACK.modules.push({
        "text": "Build, buy, borrow, bot, redeploy"
       },
       {
-       "label": "Monitor",
-       "text": "Review quarterly and adjust"
+       "label": "Monitor & adjust",
+       "text": "Review quarterly and update the plan"
       }
-     ]
+     ],
+     "caption": "Planning is a loop, not an annual document: monitoring results and new business signals restart the cycle, often every quarter for critical roles."
     },
     {
      "type": "compare",
@@ -762,6 +875,48 @@ TRACK.modules.push({
      "title": "A worked example: hospital nursing"
     },
     {
+     "type": "chart",
+     "title": "Nurse demand versus projected supply",
+     "kind": "line",
+     "labels": [
+      "Now",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6"
+     ],
+     "series": [
+      {
+       "name": "Demand (FTE)",
+       "values": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        170
+       ]
+      },
+      {
+       "name": "Projected supply (FTE)",
+       "values": [
+        150,
+        148,
+        146,
+        143,
+        141,
+        139,
+        137
+       ]
+      }
+     ],
+     "yLabel": "Nurse FTE",
+     "caption": "Numbers follow the worked example, rounded; they are illustrative. The gap opens slowly through attrition and then jumps when the new wing opens, so hiring must start early enough to cover both."
+    },
+    {
      "type": "framework",
      "title": "Closing the gap: the 4B options",
      "items": [
@@ -783,7 +938,7 @@ TRACK.modules.push({
       {
        "label": "B4",
        "title": "Bot",
-       "text": "Automate or redesign work with technology and AI. Reduces demand, but needs change management and reskilling."
+       "text": "Automate or redesign work with technology and AI. Reduces or reshapes demand, creates new tasks such as checking AI output, and needs change management and reskilling."
       }
      ]
     },
@@ -825,6 +980,12 @@ TRACK.modules.push({
     },
     {
      "type": "callout",
+     "kind": "insight",
+     "title": "Plan skills, not only headcount",
+     "text": "A role-based plan counts people; a **skills-based** plan also asks which skills are growing, shrinking or emerging. Map roles to a shared **skills taxonomy**, then look for adjacent skills: a data-entry clerk who already checks documents for errors may be a few months from a quality-analyst role. **Internal talent marketplaces** (platforms or simple processes that match people to projects, gigs and vacancies by skills) make build and redeploy faster. Keep skills data accurate, explain how it is used and let employees see and correct their own profiles."
+    },
+    {
+     "type": "callout",
      "kind": "warning",
      "text": "A negative gap means more people than work. Planning early gives humane options: hiring freezes, redeployment, retraining, voluntary schemes and natural attrition. Leaving it late often forces redundancy, which is costly, legally sensitive and damaging to trust. Always check local law on retrenchment and consultation.",
      "title": "Surplus is a gap too"
@@ -854,6 +1015,45 @@ TRACK.modules.push({
        "text": "Agree what signal will tell you a scenario is unfolding, and what you will do then."
       }
      ]
+    },
+    {
+     "type": "matrix",
+     "title": "Four workforce scenarios",
+     "x": "Speed of automation",
+     "y": "Demand growth",
+     "quadrants": [
+      {
+       "title": "Scale up people",
+       "items": [
+        "Hire and build at pace",
+        "Protect onboarding quality"
+       ]
+      },
+      {
+       "title": "Grow and reshape",
+       "items": [
+        "Hire fewer for routine work",
+        "Reskill into new roles",
+        "Recruit scarce technical skills"
+       ]
+      },
+      {
+       "title": "Hold steady",
+       "items": [
+        "Tight hiring control",
+        "Cross-train for flexibility"
+       ]
+      },
+      {
+       "title": "Redeploy and resize",
+       "items": [
+        "Hiring freeze",
+        "Redeployment and reskilling",
+        "Humane surplus plans"
+       ]
+      }
+     ],
+     "caption": "Two uncertainties give four plausible futures. Actions that appear in every quadrant, such as cross-training and building data skills, are no-regret moves; signals such as order books or automation pilots tell you which quadrant is unfolding."
     },
     {
      "type": "template",
@@ -959,6 +1159,16 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Forecast demand from business drivers and supply from current staff minus expected leavers; the gap is demand minus supply.",
+      "Hiring need = gap + leavers expected while you recruit.",
+      "Close gaps with build, buy, borrow or bot, and plan surpluses early so humane options remain.",
+      "Plan skills as well as headcount, and use scenarios to find no-regret moves."
+     ]
+    },
+    {
      "type": "quiz",
      "items": [
       {
@@ -1015,6 +1225,17 @@ TRACK.modules.push({
        ],
        "answer": 1,
        "explain": "No-regret moves are robust across futures, so they can start now."
+      },
+      {
+       "q": "A skills-based workforce plan differs from a purely role-based plan mainly because it:",
+       "options": [
+        "Ignores headcount, budgets and the costs of each option",
+        "Tracks which skills are growing or shrinking and finds adjacent skills for redeployment",
+        "Requires buying a new HR system and an AI forecasting tool before any planning work can begin",
+        "Replaces managers' input with an automated forecast"
+       ],
+       "answer": 1,
+       "explain": "Skills-based planning looks beneath job titles at the skills the work needs, which reveals redeployment and reskilling routes. It still uses headcount and cost, and it can start with simple tools."
       }
      ]
     }
@@ -1095,7 +1316,7 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "warning",
-     "text": "Requirements such as \"10 years' experience\", \"must be under 30\", \"male candidates preferred\" or \"degree from a top university\" may be unlawful, discriminatory or simply poor predictors of performance. Test every criterion: **is it truly needed to do this job well, and can we assess it fairly?**",
+     "text": "Requirements such as \"10 years' experience\", \"must be under 30\", \"male candidates preferred\" or \"degree from a top university\" may be unlawful, discriminatory or simply poor predictors of performance. Test every criterion: **is it truly needed to do this job well, and can we assess it fairly?** Many employers now drop degree requirements where the skill can be tested directly.",
      "title": "Criteria that quietly exclude"
     },
     {
@@ -1144,6 +1365,73 @@ TRACK.modules.push({
       "One framework can link recruitment criteria, performance reviews, learning plans and promotion decisions.",
       "Keep technical skills (what you know) separate from behavioural competencies (how you work)."
      ]
+    },
+    {
+     "type": "callout",
+     "kind": "definition",
+     "title": "Skills-based organisation",
+     "text": "A **skills-based organisation** describes work as bundles of skills as well as jobs. It uses a shared **skills taxonomy** (a structured list of skills with definitions and proficiency levels) to write job profiles, hire on demonstrated skills rather than degree or years-of-experience proxies, match people to internal moves and plan learning. It works only if the taxonomy is short enough to use, skills are verified with evidence, and employees can see and challenge what is recorded about them."
+    },
+    {
+     "type": "tree",
+     "title": "Part of a skills taxonomy (example)",
+     "root": {
+      "label": "Skills taxonomy",
+      "text": "Example for a lender",
+      "children": [
+       {
+        "label": "Digital",
+        "children": [
+         {
+          "label": "Data analysis"
+         },
+         {
+          "label": "Responsible AI use"
+         },
+         {
+          "label": "Process automation"
+         }
+        ]
+       },
+       {
+        "label": "Customer",
+        "children": [
+         {
+          "label": "Needs diagnosis"
+         },
+         {
+          "label": "Complaint resolution"
+         }
+        ]
+       },
+       {
+        "label": "People",
+        "children": [
+         {
+          "label": "Coaching"
+         },
+         {
+          "label": "Giving feedback"
+         },
+         {
+          "label": "Inclusive leadership"
+         }
+        ]
+       },
+       {
+        "label": "Lending domain",
+        "children": [
+         {
+          "label": "Credit assessment"
+         },
+         {
+          "label": "KYC compliance"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Clusters group related skills; each skill then gets a definition and proficiency levels (for example 1–4). The same taxonomy can feed job profiles, selection criteria, learning plans and internal matching, so keep it short and give it an owner."
     },
     {
      "type": "table",
@@ -1201,6 +1489,69 @@ TRACK.modules.push({
        "meaning": "A quick check on whether the structure is top-heavy."
       }
      ]
+    },
+    {
+     "type": "tree",
+     "title": "Counting layers and spans",
+     "root": {
+      "label": "Managing director",
+      "text": "Layer 1 · span 3",
+      "children": [
+       {
+        "label": "Operations director",
+        "text": "Layer 2 · span 2",
+        "children": [
+         {
+          "label": "Production manager",
+          "text": "Layer 3 · span 6",
+          "children": [
+           {
+            "label": "6 line supervisors",
+            "text": "Layer 4 · 20–25 operators each"
+           }
+          ]
+         },
+         {
+          "label": "Quality manager",
+          "text": "Layer 3 · span 3",
+          "children": [
+           {
+            "label": "3 QA supervisors",
+            "text": "Layer 4"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "label": "Finance director",
+        "text": "Layer 2 · span 1",
+        "children": [
+         {
+          "label": "Finance manager",
+          "text": "Layer 3 · span 1",
+          "children": [
+           {
+            "label": "Senior accountant",
+            "text": "Layer 4 · span 4"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "label": "People director",
+        "text": "Layer 2 · span 3",
+        "children": [
+         {
+          "label": "HR business partners",
+          "text": "Layer 3 · 3 roles"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Count layers from the top role to the front line (four here) and the span at each manager. The finance manager with a single report is the kind of narrow span to question: it may be a title given instead of a career path."
     },
     {
      "type": "callout",
@@ -1293,7 +1644,26 @@ TRACK.modules.push({
       {
        "term": "Organisation design",
        "def": "Shaping structure, roles, processes and decision rights so an organisation can deliver its strategy."
+      },
+      {
+       "term": "Skills taxonomy",
+       "def": "A structured list of the skills an organisation uses, with definitions and proficiency levels, shared across job profiles, hiring, learning and mobility."
+      },
+      {
+       "term": "Skills-based organisation",
+       "def": "An organisation that describes and manages work as bundles of skills as well as jobs, so it can hire, develop and redeploy people by demonstrated skill."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Job analysis gives every HR process the same picture of the job: purpose, outcomes and requirements.",
+      "Test every criterion: is it truly needed, and can we assess it fairly?",
+      "Design jobs with variety, identity, significance, autonomy and feedback.",
+      "Skills taxonomies and competency frameworks link hiring, reviews, learning and mobility, if kept short.",
+      "Check spans and layers: too many layers slow decisions; very narrow spans often hide title inflation."
      ]
     },
     {
@@ -1353,6 +1723,17 @@ TRACK.modules.push({
        ],
        "answer": 1,
        "explain": "Matrix structures balance two dimensions but often cause conflicting priorities between two bosses."
+      },
+      {
+       "q": "An employer replaces \"degree required\" with a scored work task for a junior data-analyst role. This is an example of:",
+       "options": [
+        "Market pricing",
+        "Forced distribution",
+        "Skills-based hiring",
+        "Broadbanding of pay grades across several job families"
+       ],
+       "answer": 2,
+       "explain": "Assessing the skill directly instead of relying on a degree as a proxy is skills-based hiring. It can widen the pool and predict performance better."
       }
      ]
     }
@@ -1418,7 +1799,7 @@ TRACK.modules.push({
       {
        "label": "P4",
        "title": "Work and life",
-       "text": "Flexibility, workload, location, safety and wellbeing."
+       "text": "Flexibility (including hybrid or remote options where the work allows), workload, location, safety and wellbeing."
       },
       {
        "label": "P5",
@@ -1456,6 +1837,44 @@ TRACK.modules.push({
        "text": "Use it in ads, careers pages, interviews and onboarding; track application quality and early turnover."
       }
      ]
+    },
+    {
+     "type": "matrix",
+     "title": "Choosing EVP claims",
+     "x": "Distinctive versus competitors",
+     "y": "True for employees today",
+     "quadrants": [
+      {
+       "title": "Table stakes",
+       "items": [
+        "True but common",
+        "Mention briefly",
+        "Example: on-time pay"
+       ]
+      },
+      {
+       "title": "Lead with these",
+       "items": [
+        "True and distinctive",
+        "The core of the EVP",
+        "Example: a certified skills academy"
+       ]
+      },
+      {
+       "title": "Leave out",
+       "items": [
+        "Neither true nor distinctive"
+       ]
+      },
+      {
+       "title": "Fix reality first",
+       "items": [
+        "Distinctive but not yet true",
+        "Advertising it creates the over-promise trap"
+       ]
+      }
+     ],
+     "caption": "Sort every claim from your listening exercise into a quadrant. Only top-right claims belong in the headline; bottom-right claims become an improvement plan, not advertising."
     },
     {
      "type": "callout",
@@ -1514,7 +1933,7 @@ TRACK.modules.push({
       "Count how many days candidates wait for a reply at each stage",
       "Read the last 20 decline reasons and the last 20 exit interview summaries",
       "Ask five recent joiners what surprised them in their first month",
-      "Check that job ads use inclusive language and show a pay range where possible",
+      "Check that job ads use inclusive language and show a pay range (some laws now require pay information before interview)",
       "Confirm that every rejected candidate receives a respectful message"
      ]
     },
@@ -1580,6 +1999,16 @@ TRACK.modules.push({
        "term": "Employer brand audit",
        "def": "A structured review of how the organisation appears to candidates across channels and stages."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "The employer brand is your reputation as an employer; the EVP is the honest offer behind it.",
+      "Build the EVP from evidence: why people join, stay, decline and leave.",
+      "Lead with claims that are both true and distinctive; fix reality before advertising it.",
+      "Realistic job previews reduce early turnover by letting people self-select."
      ]
     },
     {
@@ -1768,6 +2197,30 @@ TRACK.modules.push({
      "title": "Working the funnel backwards"
     },
     {
+     "type": "chart",
+     "title": "Funnel for 10 warehouse supervisors",
+     "kind": "bar",
+     "labels": [
+      "Applicants",
+      "Pass screening",
+      "Pass assessment",
+      "Accept offer"
+     ],
+     "series": [
+      {
+       "name": "Candidates",
+       "values": [
+        157,
+        31,
+        13,
+        10
+       ]
+      }
+     ],
+     "yLabel": "Candidates",
+     "caption": "Worked-example numbers, rounded. Each stage keeps only a fraction of the one before, so a small hiring target needs a large top of funnel. The steepest drop, at screening, is where to look first if the pool is wrong."
+    },
+    {
      "type": "compare",
      "title": "Job ad: weak vs strong",
      "columns": [
@@ -1787,7 +2240,7 @@ TRACK.modules.push({
         "Clear title people actually search for",
         "Purpose of the role and what success looks like",
         "Five to seven essential criteria, separated from desirable ones",
-        "Pay range, location, working pattern and benefits",
+        "Pay range, location, working pattern and benefits (pay information is now a legal duty in some places)",
         "Inclusive wording and an invitation to request adjustments"
        ]
       }
@@ -1800,6 +2253,12 @@ TRACK.modules.push({
      "title": "Fewer requirements, more applicants"
     },
     {
+     "type": "callout",
+     "kind": "warning",
+     "title": "AI in sourcing and screening",
+     "text": "Many applicant tracking systems now use AI to write ads, search talent pools, rank applications and chat with candidates. Candidates also use generative AI to write CVs and cover letters, so polished writing is a weaker signal than it was. Treat AI ranking as a selection method: keep criteria job-related, check outcomes for adverse impact, tell candidates when AI is used and keep a person accountable for decisions. Under the EU AI Act, systems used to target job ads or to filter and evaluate applicants are classed as **high-risk**; their obligations were scheduled to start in August 2026 and EU institutions have proposed postponing part of that timetable, so check the current official dates. Other places have their own rules, such as bias-audit requirements for automated hiring tools in some US cities."
+    },
+    {
      "type": "keypoints",
      "title": "Candidate experience essentials",
      "items": [
@@ -1810,6 +2269,75 @@ TRACK.modules.push({
       "Reject with respect: a clear, timely message, and brief feedback where possible.",
       "Ask candidates, including rejected ones, to rate the process and act on the results."
      ]
+    },
+    {
+     "type": "sequence",
+     "title": "A respectful candidate journey",
+     "actors": [
+      "Candidate",
+      "ATS",
+      "Recruiter",
+      "Hiring manager"
+     ],
+     "steps": [
+      {
+       "from": "Candidate",
+       "to": "ATS",
+       "label": "Applies on mobile in minutes"
+      },
+      {
+       "from": "ATS",
+       "to": "Candidate",
+       "label": "Acknowledges; shows steps and timings",
+       "note": "within 1 day",
+       "reply": true
+      },
+      {
+       "from": "Recruiter",
+       "to": "Recruiter",
+       "label": "Screens against essential criteria",
+       "note": "within 5 working days"
+      },
+      {
+       "from": "Recruiter",
+       "to": "Candidate",
+       "label": "Invites to work sample; offers adjustments"
+      },
+      {
+       "from": "Candidate",
+       "to": "Recruiter",
+       "label": "Completes the task",
+       "reply": true
+      },
+      {
+       "from": "Recruiter",
+       "to": "Hiring manager",
+       "label": "Shortlist with scored evidence"
+      },
+      {
+       "from": "Hiring manager",
+       "to": "Candidate",
+       "label": "Structured interview"
+      },
+      {
+       "from": "Hiring manager",
+       "to": "Recruiter",
+       "label": "Decision with reasons",
+       "note": "within 48 hours"
+      },
+      {
+       "from": "Recruiter",
+       "to": "Candidate",
+       "label": "Offer, or respectful no with feedback"
+      },
+      {
+       "from": "Candidate",
+       "to": "Recruiter",
+       "label": "Rates the experience",
+       "reply": true
+      }
+     ],
+     "caption": "Every arrow is a moment when the candidate judges you. The service levels in the notes are illustrative; agreeing your own turns \"good candidate experience\" into commitments you can measure."
     },
     {
      "type": "scenario",
@@ -1900,6 +2428,17 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Many hiring problems start in recruitment: the wrong ad, the wrong channel or slow replies.",
+      "Work the funnel backwards from hires to find how many applicants you need and where it leaks.",
+      "Strong ads state purpose, essential criteria and pay; inclusive wording widens the pool.",
+      "AI sourcing and screening tools need the same fairness checks, transparency and human accountability as any method.",
+      "Candidate experience is a set of measurable service levels, including respectful rejections."
+     ]
+    },
+    {
      "type": "quiz",
      "items": [
       {
@@ -1956,6 +2495,17 @@ TRACK.modules.push({
        ],
        "answer": 1,
        "explain": "Timely, respectful closure protects the brand and treats people with dignity."
+      },
+      {
+       "q": "An ATS vendor offers an AI feature that ranks applicants for interview. What should HR do before using it in live hiring?",
+       "options": [
+        "Switch off acknowledgement emails so candidates are not distracted by AI notices",
+        "Let the AI make final offer decisions automatically so recruiters can focus on sourcing",
+        "Test its rankings for job relevance and adverse impact on past or pilot data",
+        "Raise the number of applicants needed per hire"
+       ],
+       "answer": 2,
+       "explain": "An AI ranking tool is a selection method, so it needs evidence that it is job-related and fair before use. Hiding it from candidates or letting it decide alone removes transparency and human accountability."
       }
      ]
     }
@@ -2011,7 +2561,7 @@ TRACK.modules.push({
      "rows": [
       [
        "Structured interview",
-       "High",
+       "High; among the strongest in recent re-analyses",
        "Low to moderate if well designed",
        "Moderate"
       ],
@@ -2029,7 +2579,7 @@ TRACK.modules.push({
       ],
       [
        "Cognitive ability test",
-       "High for complex jobs",
+       "Moderate to high; recent re-analyses suggest older estimates were too high",
        "Can show group differences; use with care",
        "Low per candidate"
       ],
@@ -2064,6 +2614,46 @@ TRACK.modules.push({
      "kind": "insight",
      "text": "A structured interview plus a short work sample usually beats any single method. Each method samples different evidence, and errors in one are partly balanced by the other. Add more methods only if they add new information.",
      "title": "Combine, do not rely on one"
+    },
+    {
+     "type": "matrix",
+     "title": "Choosing methods: prediction versus cost",
+     "x": "Cost and effort per candidate",
+     "y": "Predictive power",
+     "quadrants": [
+      {
+       "title": "Best value",
+       "items": [
+        "Structured interview",
+        "Short job-related skills test",
+        "Well-built situational judgement test"
+       ]
+      },
+      {
+       "title": "Worth it for key roles",
+       "items": [
+        "Work sample or simulation",
+        "Assessment centre"
+       ]
+      },
+      {
+       "title": "Cheap but weak",
+       "items": [
+        "Unstructured chat",
+        "Years of experience alone",
+        "CV keyword filters"
+       ]
+      },
+      {
+       "title": "Avoid",
+       "items": [
+        "Long unstructured panels",
+        "Handwriting or \"face reading\"",
+        "Unvalidated video-analysis tools"
+       ]
+      }
+     ],
+     "caption": "Placement is approximate and depends on the role and on how well each method is built. Start top-left, add top-right methods for critical or high-volume roles, and drop anything in the bottom half."
     },
     {
      "type": "framework",
@@ -2166,6 +2756,12 @@ TRACK.modules.push({
     },
     {
      "type": "callout",
+     "kind": "pro",
+     "title": "Generative AI and take-home tasks",
+     "text": "Candidates can now complete many take-home exercises with AI help. Decide and state your policy: either allow AI and assess how well candidates use and check it, or use supervised or live tasks where independent skill matters. Ask candidates to talk through their work in the interview; the explanation is much harder to outsource than the output."
+    },
+    {
+     "type": "callout",
      "kind": "example",
      "text": "A Bangladeshi conglomerate selects 15 management trainees from 400 shortlisted graduates using a one-day assessment centre: a group case discussion, an in-tray exercise, a presentation and a structured interview. Trained assessors from different business units score each exercise against four competencies and then meet to agree final ratings using the evidence.",
      "title": "An assessment centre for management trainees"
@@ -2232,6 +2828,17 @@ TRACK.modules.push({
        "term": "Multiple hurdle approach",
        "def": "A decision rule in which candidates must pass each stage to continue, so strengths cannot offset failure at any one stage."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Selection is prediction: choose methods on evidence of validity, reliability, fairness and cost.",
+      "Structured interviews and work samples are strong, practical choices; combine methods only when they add new evidence.",
+      "Map every essential criterion to at least one method and set scoring rules before meeting candidates.",
+      "References confirm facts; background checks must be lawful, proportionate and explained.",
+      "Set a clear policy on candidates' use of AI in assessments."
      ]
     },
     {
@@ -2437,6 +3044,12 @@ TRACK.modules.push({
      "title": "Write the anchors before the interviews"
     },
     {
+     "type": "callout",
+     "kind": "warning",
+     "title": "Remote interviews and AI tools",
+     "text": "Video interviews widen the pool but need the same structure. If you use transcription or AI note-taking, tell candidates and get consent where the law requires it, and keep scoring with trained people using the anchors. Avoid tools that claim to read personality or emotion from faces or voices: the evidence is weak, and AI that infers emotions at work is prohibited in the EU except for medical or safety reasons."
+    },
+    {
      "type": "template",
      "title": "Structured interview guide",
      "purpose": "Plan questions, probes and scoring for each criterion so every candidate is assessed the same way.",
@@ -2489,6 +3102,66 @@ TRACK.modules.push({
        "text": "Apply the agreed decision rule and record reasons in the ATS."
       }
      ]
+    },
+    {
+     "type": "sequence",
+     "title": "From interview to recorded decision",
+     "actors": [
+      "Candidate",
+      "Panel chair",
+      "Panellists",
+      "HR / ATS"
+     ],
+     "steps": [
+      {
+       "from": "Panel chair",
+       "to": "Panellists",
+       "label": "Brief: roles, questions, anchors"
+      },
+      {
+       "from": "Panel chair",
+       "to": "Candidate",
+       "label": "Welcome, format, note-taking"
+      },
+      {
+       "from": "Panellists",
+       "to": "Candidate",
+       "label": "Planned questions and probes"
+      },
+      {
+       "from": "Candidate",
+       "to": "Panellists",
+       "label": "Answers with specific examples",
+       "reply": true
+      },
+      {
+       "from": "Panellists",
+       "to": "Panellists",
+       "label": "Each scores alone on the anchors",
+       "note": "before any discussion"
+      },
+      {
+       "from": "Panellists",
+       "to": "Panel chair",
+       "label": "Scores and evidence notes"
+      },
+      {
+       "from": "Panel chair",
+       "to": "Panel chair",
+       "label": "Flags gaps of 2+ points"
+      },
+      {
+       "from": "Panel chair",
+       "to": "Panellists",
+       "label": "Discuss evidence, criterion by criterion"
+      },
+      {
+       "from": "Panel chair",
+       "to": "HR / ATS",
+       "label": "Decision and reasons recorded"
+      }
+     ],
+     "caption": "Notice where independence is protected: scores are written before the wash-up, and discussion focuses on criteria where panellists disagree. The record at the end is what makes the decision explainable if it is challenged."
     },
     {
      "type": "scenario",
@@ -2564,6 +3237,16 @@ TRACK.modules.push({
        "term": "Probe",
        "def": "A planned follow-up question used to obtain specific evidence from a candidate's answer."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Structure (same job-related questions, anchored scales, notes, independent scoring) makes interviews more reliable, valid and fair.",
+      "Use behavioural questions for experienced candidates and situational ones for new entrants; probe with STAR.",
+      "Write anchors before meeting candidates.",
+      "In the wash-up, discuss evidence where scores diverge and decide by the agreed rule, not by rapport."
      ]
     },
     {
@@ -2713,10 +3396,37 @@ TRACK.modules.push({
      "title": "Calculating adverse impact"
     },
     {
+     "type": "chart",
+     "title": "Pass rates in the bank's online test",
+     "kind": "bar",
+     "labels": [
+      "Men",
+      "Women"
+     ],
+     "series": [
+      {
+       "name": "Pass rate",
+       "values": [
+        50,
+        35
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Pass rate",
+     "caption": "Worked-example data. Four-fifths of the highest rate (50%) is 40%; the women's rate of 35% falls below that line, giving an impact ratio of 0.70 and a signal to investigate the test."
+    },
+    {
      "type": "callout",
      "kind": "warning",
      "text": "With very small groups, one candidate can swing the ratio wildly. Look at trends over several hiring rounds and use statistical advice where decisions are significant. The rule of thumb is a prompt to investigate, not a verdict.",
      "title": "Small numbers mislead"
+    },
+    {
+     "type": "callout",
+     "kind": "insight",
+     "title": "Same checks for automated tools; new rules at offer stage",
+     "text": "Apply impact-ratio checks to every stage, including AI screening and automated assessments; some jurisdictions now require independent bias audits and candidate notices for such tools. Rules at the offer stage are changing too: the **EU Pay Transparency Directive**, which member states had to bring into national law by June 2026, requires employers to give candidates the starting pay or its range before interview (for example in the advert) and stops them asking about pay history. Salary-history bans also exist elsewhere. Check what applies where you hire."
     },
     {
      "type": "keypoints",
@@ -2839,6 +3549,17 @@ TRACK.modules.push({
        "term": "Conditional offer",
        "def": "A job offer that becomes final only when stated conditions, such as references or credential checks, are met."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Bias is mostly automatic, so fairness must be designed into the process and checked with data.",
+      "Impact ratio = group selection rate ÷ highest group rate; below 0.80 is a signal to investigate, not proof.",
+      "Reasonable adjustments change how a skill is assessed, not the standard.",
+      "Apply the same checks to AI and automated tools, and follow pay-information and salary-history rules at offer stage.",
+      "Fast, clear decisions and offers stop strong candidates slipping away."
      ]
     },
     {
@@ -2991,34 +3712,47 @@ TRACK.modules.push({
      "title": "Most programmes stop at compliance"
     },
     {
-     "type": "flow",
-     "title": "The onboarding journey",
+     "type": "callout",
+     "kind": "pro",
+     "title": "Onboarding hybrid and remote joiners",
+     "text": "Connection does not happen by accident when people are not in the same place. Send equipment and test access before day one, plan an early in-person day with the team where possible, give the buddy explicit time for daily check-ins in week one, and keep key \"how we work\" knowledge in one place. An AI assistant can answer routine questions about policies and systems if it draws only on approved content, but it never replaces the manager's conversations."
+    },
+    {
+     "type": "timeline",
+     "title": "The first 90 days",
      "items": [
       {
+       "when": "Before day 1",
        "label": "Pre-boarding",
-       "text": "Welcome message, paperwork online, first-week plan"
+       "text": "Welcome message, paperwork online, equipment and access ready, first-week plan"
       },
       {
-       "label": "Day one",
-       "text": "Warm welcome, manager time, workspace and tools ready"
+       "when": "Day 1",
+       "label": "Welcome",
+       "text": "Manager time, workspace and tools working, buddy introduced"
       },
       {
-       "label": "Week one",
-       "text": "Buddy, key introductions, first small task"
+       "when": "Week 1",
+       "label": "Connect",
+       "text": "Key introductions, team norms, a first small task"
       },
       {
-       "label": "Month one",
-       "text": "Role goals agreed, training plan, first check-in"
+       "when": "Day 30",
+       "label": "Clarify",
+       "text": "Role goals agreed, training plan, first formal check-in"
       },
       {
-       "label": "Day 60",
-       "text": "Feedback both ways, adjust support"
+       "when": "Day 60",
+       "label": "Adjust",
+       "text": "Feedback both ways; extra support where needed"
       },
       {
-       "label": "Day 90",
-       "text": "Review progress, confirm goals, probation conversation"
+       "when": "Day 90",
+       "label": "Review",
+       "text": "Progress against goals, probation conversation, development plan"
       }
-     ]
+     ],
+     "caption": "Each milestone has an owner and a visible output. Many decisions to leave early form in the first weeks, so the front of the timeline deserves the most care."
     },
     {
      "type": "template",
@@ -3155,6 +3889,16 @@ TRACK.modules.push({
        "term": "Probation period",
        "def": "An initial period of employment during which performance and suitability are reviewed before confirmation."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Induction is an event; onboarding is a process of 90 days or more, led by the line manager.",
+      "Check every programme against the four Cs: compliance, clarity, culture and connection.",
+      "Plan milestones from pre-boarding to day 90 with owners; design connection in for remote joiners.",
+      "Measure with early turnover, time to productivity and new-hire pulse surveys."
      ]
     },
     {
@@ -3353,6 +4097,103 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "matrix",
+     "title": "Prioritising succession risk",
+     "x": "Likelihood of losing the incumbent",
+     "y": "Impact if the role is empty",
+     "quadrants": [
+      {
+       "title": "Build the bench",
+       "items": [
+        "Critical but stable",
+        "Name successors; develop over 1–3 years"
+       ]
+      },
+      {
+       "title": "Act now",
+       "items": [
+        "Critical and at risk",
+        "Ready-now cover, retention talk, knowledge capture"
+       ]
+      },
+      {
+       "title": "Monitor",
+       "items": [
+        "Lower impact and stable",
+        "Review annually"
+       ]
+      },
+      {
+       "title": "Retain or replace fast",
+       "items": [
+        "Lower impact but at risk",
+        "Retention action or a quick external hire"
+       ]
+      }
+     ],
+     "caption": "Rate each role, not the person. Top-right roles are where an empty chair hurts most and soonest, as in the university case below, so they get named successors and interim cover first."
+    },
+    {
+     "type": "callout",
+     "kind": "definition",
+     "title": "Internal talent marketplace",
+     "text": "An **internal talent marketplace** matches employees to open roles, short projects, gigs and mentors by skills and interests, often through a platform with AI matching. It speeds up build and redeploy and lets people grow without leaving. It works when managers agree to release people for moves, opportunities are visible to everyone, the matching logic is explained, and HR checks who gets opportunities by group."
+    },
+    {
+     "type": "tree",
+     "title": "Routes for internal mobility",
+     "root": {
+      "label": "Internal mobility",
+      "children": [
+       {
+        "label": "Vertical",
+        "children": [
+         {
+          "label": "Promotion"
+         },
+         {
+          "label": "Acting role"
+         }
+        ]
+       },
+       {
+        "label": "Lateral",
+        "children": [
+         {
+          "label": "Rotation"
+         },
+         {
+          "label": "Cross-function move"
+         }
+        ]
+       },
+       {
+        "label": "Project",
+        "children": [
+         {
+          "label": "Gig or short project"
+         },
+         {
+          "label": "Stretch assignment"
+         }
+        ]
+       },
+       {
+        "label": "Learning-led",
+        "children": [
+         {
+          "label": "Secondment"
+         },
+         {
+          "label": "Shadowing"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Promotion is only one route. Lateral, project and learning-led moves build broader capability and keep people growing when promotion slots are scarce, which is common in flatter structures."
+    },
+    {
      "type": "template",
      "title": "Succession plan for critical roles",
      "purpose": "Record successors and readiness for each critical role and the development needed to close the gap.",
@@ -3448,7 +4289,22 @@ TRACK.modules.push({
       {
        "term": "Internal mobility",
        "def": "Movement of employees into new roles inside the organisation through promotion, transfer or project assignments."
+      },
+      {
+       "term": "Internal talent marketplace",
+       "def": "A platform or process that matches employees to open roles, projects, gigs and mentors inside the organisation by skills and interests."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Talent management asks who will do the most critical work in three to five years, and what you are doing about it now.",
+      "Blend an inclusive base with targeted pools, and be open about how people enter them.",
+      "Judge potential on evidence, calibrate ratings and share development actions, not box labels.",
+      "Prioritise succession by role impact and vacancy risk; track bench strength and internal fill rate.",
+      "Use lateral, project and marketplace moves as well as promotion to keep people growing."
      ]
     },
     {
@@ -3560,30 +4416,55 @@ TRACK.modules.push({
      ]
     },
     {
-     "type": "flow",
-     "title": "Is training the answer? A diagnostic",
-     "items": [
-      {
-       "label": "Define the gap",
-       "text": "What should happen vs what happens"
-      },
-      {
-       "label": "Check knowledge and skill",
-       "text": "Could they do it if their life depended on it?"
-      },
-      {
-       "label": "Check environment",
-       "text": "Tools, time, process, clear expectations"
-      },
-      {
-       "label": "Check motivation",
-       "text": "Consequences, incentives, feedback"
-      },
-      {
-       "label": "Choose solution",
-       "text": "Training only if skill or knowledge is missing"
-      }
-     ]
+     "type": "tree",
+     "title": "Is training the answer?",
+     "root": {
+      "label": "Performance gap",
+      "text": "What should happen vs what happens",
+      "children": [
+       {
+        "label": "Unclear expectations",
+        "children": [
+         {
+          "label": "Clarify the standard",
+          "text": "Show what good looks like"
+         }
+        ]
+       },
+       {
+        "label": "Missing skill or knowledge",
+        "children": [
+         {
+          "label": "Train and practise",
+          "text": "With feedback and coaching"
+         },
+         {
+          "label": "Job aid",
+          "text": "Checklist or guide at the point of work"
+         }
+        ]
+       },
+       {
+        "label": "Environment blocks it",
+        "children": [
+         {
+          "label": "Fix the system",
+          "text": "Tools, time, process, access"
+         }
+        ]
+       },
+       {
+        "label": "Consequences discourage it",
+        "children": [
+         {
+          "label": "Change the signals",
+          "text": "Feedback, incentives, workload"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Only one branch leads to training. Check the others first: in the hand-hygiene example below, the cause sat in the environment branch, and fixing it worked without a single course."
     },
     {
      "type": "callout",
@@ -3592,35 +4473,32 @@ TRACK.modules.push({
      "title": "Not a training problem"
     },
     {
-     "type": "framework",
+     "type": "cycle",
      "title": "ADDIE: a systematic design cycle",
+     "center": "ADDIE",
      "items": [
       {
-       "label": "A",
-       "title": "Analyse",
-       "text": "Confirm the need, the audience, the context and the performance goal."
+       "label": "Analyse",
+       "text": "Confirm the need, the audience, the context and the performance goal"
       },
       {
-       "label": "D",
-       "title": "Design",
-       "text": "Set objectives, choose methods, plan assessment and sequence."
+       "label": "Design",
+       "text": "Set objectives, choose methods, plan assessment and sequence"
       },
       {
-       "label": "D",
-       "title": "Develop",
-       "text": "Build materials, activities, job aids and digital content; pilot them."
+       "label": "Develop",
+       "text": "Build materials, activities, job aids and digital content; pilot them"
       },
       {
-       "label": "I",
-       "title": "Implement",
-       "text": "Deliver, support managers and learners, manage logistics."
+       "label": "Implement",
+       "text": "Deliver, support managers and learners, manage logistics"
       },
       {
-       "label": "E",
-       "title": "Evaluate",
-       "text": "Check reaction, learning, behaviour and results; improve the design."
+       "label": "Evaluate",
+       "text": "Check reaction, learning, behaviour and results; improve the design"
       }
-     ]
+     ],
+     "caption": "Drawn as a loop on purpose: evaluation feeds the next analysis. In practice teams run quick prototype–test–improve loops inside Design and Develop rather than one long waterfall."
     },
     {
      "type": "callout",
@@ -3666,6 +4544,12 @@ TRACK.modules.push({
      "kind": "insight",
      "text": "The 70-20-10 split is a reminder that formal courses are a small part of how people learn, not a precise ratio. Design formal learning to **launch** on-the-job practice and coaching rather than to replace them.",
      "title": "A guideline, not a formula"
+    },
+    {
+     "type": "callout",
+     "kind": "insight",
+     "title": "AI in learning design",
+     "text": "AI tools can draft case studies, quiz items and short modules in minutes, and can act as practice partners or tutors. They speed up Develop, but subject experts must check accuracy and bias, and the learning still has to target the performance gap. Skills data can personalise learning paths, provided learners can see why something is recommended to them."
     },
     {
      "type": "template",
@@ -3753,6 +4637,16 @@ TRACK.modules.push({
        "term": "Andragogy",
        "def": "Principles of how adults learn, emphasising relevance, experience, self-direction and problem-solving."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Start from the performance gap, not the course catalogue; analyse needs at organisation, role and individual level.",
+      "Train only when skill or knowledge is missing; otherwise fix clarity, environment or consequences.",
+      "Use ADDIE as a loop with quick prototypes, and write objectives as observable behaviour with conditions and a standard.",
+      "Design for adults: relevance, experience, practice with feedback and spacing; 70-20-10 is a guideline."
      ]
     },
     {
@@ -3918,6 +4812,46 @@ TRACK.modules.push({
      "title": "Managers are the biggest transfer lever"
     },
     {
+     "type": "chart",
+     "title": "Spaced practice and retention",
+     "kind": "line",
+     "labels": [
+      "Day 0",
+      "Day 1",
+      "Day 7",
+      "Day 14",
+      "Day 30",
+      "Day 60"
+     ],
+     "series": [
+      {
+       "name": "One-off session",
+       "values": [
+        100,
+        65,
+        40,
+        32,
+        25,
+        20
+       ]
+      },
+      {
+       "name": "With spaced refreshers",
+       "values": [
+        100,
+        80,
+        78,
+        80,
+        82,
+        82
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Skill retained",
+     "caption": "Illustrative curves, not measured data. Without practice much of a one-off session fades within weeks; short spaced refreshers and use on the job (the \"Weeks 2–8\" step above) keep the skill available."
+    },
+    {
      "type": "framework",
      "title": "Four levels of evaluation",
      "items": [
@@ -4047,6 +4981,16 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Blend delivery methods so each does what it is best at.",
+      "Transfer depends on what happens before and after: manager goals, practice, spaced refreshers and follow-up.",
+      "Plan evaluation backwards from results (Level 4) and collect a baseline first.",
+      "ROI = (benefits − costs) ÷ costs × 100; isolate the effect honestly with comparison groups."
+     ]
+    },
+    {
      "type": "quiz",
      "items": [
       {
@@ -4157,8 +5101,9 @@ TRACK.modules.push({
      ]
     },
     {
-     "type": "flow",
+     "type": "cycle",
      "title": "A continuous performance cycle",
+     "center": "Performance",
      "items": [
       {
        "label": "Plan",
@@ -4177,10 +5122,11 @@ TRACK.modules.push({
        "text": "Periodic summary of results and growth"
       },
       {
-       "label": "Recognise and decide",
+       "label": "Recognise & decide",
        "text": "Reward, development and next goals"
       }
-     ]
+     ],
+     "caption": "The cycle turns several times a year: goals are revisited each quarter and every check-in loops back to planning. The formal review is one point on the loop, not the whole system."
     },
     {
      "type": "compare",
@@ -4270,6 +5216,55 @@ TRACK.modules.push({
        "Run a fortnightly knowledge-share session and review two colleagues' work each month through Q3"
       ]
      ]
+    },
+    {
+     "type": "tree",
+     "title": "Aligning goals across a hospital",
+     "root": {
+      "label": "Cut outpatient waits by 30%",
+      "text": "Hospital goal this year",
+      "children": [
+       {
+        "label": "Outpatient team",
+        "text": "Shared: average wait ≤ 40 min",
+        "children": [
+         {
+          "label": "Clinic scheduler",
+          "text": "Rebook no-shows within 24 h"
+         },
+         {
+          "label": "Nurse lead",
+          "text": "Triage on arrival in all clinics"
+         }
+        ]
+       },
+       {
+        "label": "Laboratory",
+        "text": "Shared: routine results within 2 h",
+        "children": [
+         {
+          "label": "Lab supervisor",
+          "text": "Add a peak-hour shift"
+         },
+         {
+          "label": "Senior analyst",
+          "text": "Auto-flag urgent samples"
+         }
+        ]
+       },
+       {
+        "label": "Finance",
+        "text": "Overtime within the agreed budget",
+        "children": [
+         {
+          "label": "Payroll lead",
+          "text": "Weekly overtime report by ward"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Goals cascade down and connect across. Giving outpatients and the laboratory a shared pathway measure removes the conflict in the scenario below, where each team's own goal worked against the other. The figures are illustrative."
     },
     {
      "type": "callout",
@@ -4363,6 +5358,16 @@ TRACK.modules.push({
        "term": "Learning goal",
        "def": "A goal focused on discovering strategies or building skills rather than reaching a fixed output."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Performance management is continuous: plan, check in, support, review, recognise.",
+      "Write SMART goals; use OKRs for ambitious, often public, quarterly objectives kept apart from pay.",
+      "Align goals vertically and horizontally so that teams do not work against each other.",
+      "Specific, accepted goals with feedback raise performance; use learning goals for novel, complex work."
      ]
     },
     {
@@ -4469,6 +5474,65 @@ TRACK.modules.push({
      "kind": "pro",
      "text": "After SBI, ask a question: \"How did you see it?\" or \"What could you try next time?\" This turns feedback into a conversation, surfaces information you may not have, and builds ownership of the next step.",
      "title": "Then ask, do not tell"
+    },
+    {
+     "type": "sequence",
+     "title": "An SBI feedback conversation",
+     "actors": [
+      "Manager",
+      "Employee"
+     ],
+     "steps": [
+      {
+       "from": "Manager",
+       "to": "Employee",
+       "label": "Asks for a private moment",
+       "note": "soon after the event"
+      },
+      {
+       "from": "Manager",
+       "to": "Employee",
+       "label": "Situation: \"In yesterday's client call…\""
+      },
+      {
+       "from": "Manager",
+       "to": "Employee",
+       "label": "Behaviour: \"you interrupted her twice\""
+      },
+      {
+       "from": "Manager",
+       "to": "Employee",
+       "label": "Impact: \"she stopped sharing concerns\""
+      },
+      {
+       "from": "Manager",
+       "to": "Employee",
+       "label": "Asks: \"How did you see it?\""
+      },
+      {
+       "from": "Employee",
+       "to": "Manager",
+       "label": "Shares context and own view",
+       "reply": true
+      },
+      {
+       "from": "Manager",
+       "to": "Employee",
+       "label": "Asks: \"What could you try next time?\""
+      },
+      {
+       "from": "Employee",
+       "to": "Manager",
+       "label": "Proposes a next step",
+       "reply": true
+      },
+      {
+       "from": "Manager",
+       "to": "Employee",
+       "label": "Agrees support and a follow-up date"
+      }
+     ],
+     "caption": "Notice the turn after Impact: the manager stops telling and starts asking. The employee's view often adds facts the manager did not have, and the next step belongs to the employee."
     },
     {
      "type": "compare",
@@ -4638,6 +5702,16 @@ TRACK.modules.push({
        "term": "Continuous performance management",
        "def": "An approach that replaces or supplements annual reviews with frequent check-ins and adaptable goals."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Useful feedback is specific, timely, private when developmental and about behaviour, not personality.",
+      "Use SBI, then ask for the other person's view and agree a next step.",
+      "Run regular check-ins that start with the employee's agenda.",
+      "Use 360-degree feedback for development, not pay, and protect raters' anonymity."
      ]
     },
     {
@@ -4831,9 +5905,46 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "chart",
+     "title": "Rating distributions before calibration",
+     "kind": "bar",
+     "labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "series": [
+      {
+       "name": "Department A",
+       "values": [
+        0,
+        5,
+        10,
+        15,
+        70
+       ]
+      },
+      {
+       "name": "Department B",
+       "values": [
+        5,
+        20,
+        50,
+        20,
+        5
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "% of staff",
+     "caption": "Illustrative data in the spirit of the case below (1 = unsatisfactory, 5 = outstanding). Two departments with similar results produce very different spreads; \"review the spread\" means putting charts like this side by side, by team and by group, before discussing individuals."
+    },
+    {
      "type": "callout",
      "kind": "warning",
-     "text": "If women, part-time staff, staff on maternity leave, or one region consistently receive lower ratings, investigate. Patterns may reveal bias in goals, opportunities or rating, and ratings that feed pay can create unequal pay.",
+     "text": "If women, part-time staff, staff on maternity leave, or one region consistently receive lower ratings, investigate. Patterns may reveal bias in goals, opportunities or rating, and ratings that feed pay can create unequal pay. Pay transparency rules such as the EU directive expect pay progression criteria to be objective and gender-neutral, so biased ratings are a legal as well as an ethical risk.",
      "title": "Check outcomes for patterns"
     },
     {
@@ -4864,9 +5975,52 @@ TRACK.modules.push({
     },
     {
      "type": "callout",
+     "kind": "warning",
+     "title": "AI-drafted reviews",
+     "text": "Some systems now draft review text from goals, check-in notes and feedback. Treat drafts as a starting point only: check every statement against evidence, remove generic phrases, watch for biased language (for example, different adjectives for women and men), and make sure the manager owns and can explain the final words."
+    },
+    {
+     "type": "callout",
      "kind": "pro",
      "text": "When pay is discussed in the same meeting as development, people stop listening once they hear the number. Many organisations hold the development review first and the pay conversation a few weeks later.",
      "title": "Separate the money conversation where you can"
+    },
+    {
+     "type": "timeline",
+     "title": "A performance year at a glance",
+     "items": [
+      {
+       "when": "January",
+       "label": "Goals set",
+       "text": "Team and individual goals agreed"
+      },
+      {
+       "when": "April",
+       "label": "Q1 refresh",
+       "text": "Goals revisited as priorities shift"
+      },
+      {
+       "when": "July",
+       "label": "Mid-year review",
+       "text": "Progress and development check"
+      },
+      {
+       "when": "October",
+       "label": "Q3 refresh",
+       "text": "Goals adjusted; evidence gathered"
+      },
+      {
+       "when": "Nov–Dec",
+       "label": "Review and calibration",
+       "text": "Self-review, conversation, ratings aligned across teams"
+      },
+      {
+       "when": "February",
+       "label": "Pay conversation",
+       "text": "Increases and bonuses decided and explained"
+      }
+     ],
+     "caption": "An illustrative calendar for a January–December year; check-ins run underneath every milestone. Holding the pay conversation weeks after the development review keeps attention on growth."
     },
     {
      "type": "template",
@@ -4965,6 +6119,16 @@ TRACK.modules.push({
        "term": "Forced distribution",
        "def": "A rating system requiring fixed percentages of employees in each rating category."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Choose a rating approach that fits; forced distribution has been widely abandoned.",
+      "Name and counter rating errors: halo, recency, leniency, strictness, central tendency, similar-to-me.",
+      "Calibrate with evidence and review distributions by team and group for patterns.",
+      "Keep year-round notes, separate the pay conversation and offer a route to challenge ratings."
      ]
     },
     {
@@ -5112,6 +6276,48 @@ TRACK.modules.push({
      "title": "Health and protected situations"
     },
     {
+     "type": "tree",
+     "title": "Diagnosing a performance concern",
+     "root": {
+      "label": "Performance concern",
+      "text": "Raise it early, with examples",
+      "children": [
+       {
+        "label": "Can't (capability)",
+        "children": [
+         {
+          "label": "Skills gap",
+          "text": "Train, coach; PIP if needed"
+         },
+         {
+          "label": "Health or disability",
+          "text": "Advice, adjustments, occupational health"
+         }
+        ]
+       },
+       {
+        "label": "Won't (conduct)",
+        "children": [
+         {
+          "label": "Rule or standard broken",
+          "text": "Investigate; disciplinary procedure"
+         }
+        ]
+       },
+       {
+        "label": "Set up to fail (system)",
+        "children": [
+         {
+          "label": "Unclear goals or no resources",
+          "text": "Fix the system first"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Decide which branch you are on before choosing a procedure. Mixing them, for example using a PIP for misconduct or discipline for a health issue, is a common cause of unfair outcomes."
+    },
+    {
      "type": "flow",
      "title": "From concern to outcome",
      "items": [
@@ -5149,6 +6355,38 @@ TRACK.modules.push({
       "The possible outcomes, stated honestly, including what happens if targets are not met.",
       "The employee's right to comment, be accompanied where policy or law allows, and appeal."
      ]
+    },
+    {
+     "type": "timeline",
+     "title": "A six-week PIP",
+     "items": [
+      {
+       "when": "Week 0",
+       "label": "Plan meeting",
+       "text": "Gaps, evidence, SMART targets, support and possible outcomes explained; employee comments"
+      },
+      {
+       "when": "Week 2",
+       "label": "Review 1",
+       "text": "Progress against targets; support adjusted"
+      },
+      {
+       "when": "Week 4",
+       "label": "Review 2",
+       "text": "Trend checked; honest view of the likely outcome"
+      },
+      {
+       "when": "Week 6",
+       "label": "Final review",
+       "text": "Targets met, extension with support, or formal capability outcome"
+      },
+      {
+       "when": "After week 6",
+       "label": "Outcome letter",
+       "text": "Decision, reasons and right of appeal in writing"
+      }
+     ],
+     "caption": "Review meetings are fixed in advance and actually held; that rhythm, with notes, is what makes the process fair and defensible. Period lengths vary by role and policy."
     },
     {
      "type": "template",
@@ -5262,6 +6500,16 @@ TRACK.modules.push({
        "term": "Capability procedure",
        "def": "A formal process for managing performance problems caused by lack of ability or health."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Diagnose before acting: clarity, capability, resources, motivation, circumstances and fit.",
+      "Separate capability (cannot) from conduct (will not) and use the right procedure.",
+      "A fair PIP has specific targets, real support, scheduled reviews and honestly stated outcomes.",
+      "Take advice whenever health or another protected situation may be involved."
      ]
     },
     {

@@ -140,9 +140,42 @@ TRACK.modules.push({
      "title": "A mixed position at a fintech"
     },
     {
+     "type": "chart",
+     "title": "Pay versus market median by role family",
+     "kind": "bar",
+     "labels": [
+      "Data science",
+      "Security eng.",
+      "Operations",
+      "Support"
+     ],
+     "series": [
+      {
+       "name": "Market median",
+       "values": [
+        100,
+        100,
+        100,
+        100
+       ]
+      },
+      {
+       "name": "Our pay",
+       "values": [
+        118,
+        116,
+        101,
+        99
+       ]
+      }
+     ],
+     "yLabel": "Index (median = 100)",
+     "caption": "Illustrative index (market median = 100): the fintech leads the market, near the 75th percentile, for scarce critical roles and matches it elsewhere. A mixed position like this must be written down and explained, or it will look like favouritism."
+    },
+    {
      "type": "callout",
      "kind": "warning",
-     "text": "Minimum wages, overtime rules, mandatory benefits and payment-timing rules set the floor for any reward strategy. In Bangladesh, minimum wages for many sectors, including ready-made garments, are set through a minimum wage board process and revised periodically, and the labour law contains rules on wage payment, overtime and certain benefits. **Always check the current law and gazette notifications** before setting or changing pay.",
+     "text": "Minimum wages, overtime rules, mandatory benefits and payment-timing rules set the floor for any reward strategy, and they **vary by country, region and sector**. In Bangladesh, for example, minimum wages for sectors such as ready-made garments are set through a minimum wage board process and revised periodically. Many buyers and investors also ask about **living wages**, which can sit above legal minimums. **Always check the current law and official notifications** before setting or changing pay.",
      "title": "Legal floors come first"
     },
     {
@@ -174,6 +207,12 @@ TRACK.modules.push({
        "text": "Explain the philosophy to managers and employees in plain language."
       }
      ]
+    },
+    {
+     "type": "callout",
+     "kind": "insight",
+     "title": "Design for transparency",
+     "text": "Assume your pay structure will be seen. Pay transparency laws are spreading (see lesson 5 of this module), and employees already compare pay online. A reward strategy that cannot be explained in plain language will not survive being published."
     },
     {
      "type": "scenario",
@@ -237,6 +276,16 @@ TRACK.modules.push({
        "term": "Minimum wage",
        "def": "The lowest legal rate of pay for a type of work, set by law or a statutory body."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Total rewards include pay, benefits, wellbeing and flexibility, development and recognition.",
+      "Every reward strategy balances internal equity, external competitiveness and affordability.",
+      "Choose and explain a market position: lead, match, lag or mixed.",
+      "Legal floors vary by country and come first; design pay you could explain publicly."
      ]
     },
     {
@@ -418,6 +467,42 @@ TRACK.modules.push({
      "title": "Scoring two jobs"
     },
     {
+     "type": "chart",
+     "title": "Factor points for two jobs",
+     "kind": "bar",
+     "labels": [
+      "Knowledge",
+      "Problem-solving",
+      "Responsibility",
+      "Communication",
+      "Conditions"
+     ],
+     "series": [
+      {
+       "name": "Store Supervisor",
+       "values": [
+        18,
+        15,
+        15,
+        6,
+        6
+       ]
+      },
+      {
+       "name": "Payroll Officer",
+       "values": [
+        18,
+        15,
+        20,
+        4,
+        2
+       ]
+      }
+     ],
+     "yLabel": "Points",
+     "caption": "Worked-example data. The totals are almost equal (60 and 59), but the profiles differ: the payroll officer scores more on responsibility, the supervisor on communication and working conditions. Point-factor plans make these trade-offs visible and explainable."
+    },
+    {
      "type": "steps",
      "title": "Running a job evaluation exercise",
      "items": [
@@ -450,49 +535,84 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "warning",
-     "text": "Schemes that weight only physical effort, technical qualifications or managing money can undervalue work often done by women, such as caring, emotional labour, coordination and fine manual skill. An analytical scheme checked for bias is a key defence in equal pay for work of equal value.",
+     "text": "Schemes that weight only physical effort, technical qualifications or managing money can undervalue work often done by women, such as caring, emotional labour, coordination and fine manual skill. An analytical scheme checked for bias is a key defence in equal pay for work of equal value. Pay transparency rules, such as the EU directive, expect pay structures to rest on objective, gender-neutral criteria such as skills, effort, responsibility and working conditions.",
      "title": "Hidden bias in factors"
     },
     {
-     "type": "layers",
-     "title": "Job architecture: families and levels",
-     "items": [
-      {
-       "label": "Executive",
-       "parts": [
-        "Sets strategy for the organisation",
-        "E1–E2"
-       ]
-      },
-      {
-       "label": "Management",
-       "parts": [
-        "Leads functions or large teams",
-        "M1–M3"
-       ]
-      },
-      {
-       "label": "Professional",
-       "parts": [
-        "Applies specialist expertise",
-        "P1–P4"
-       ]
-      },
-      {
-       "label": "Technical and support",
-       "parts": [
-        "Delivers defined processes with skill",
-        "T1–T3"
-       ]
-      },
-      {
-       "label": "Operational",
-       "parts": [
-        "Performs standard tasks under guidance",
-        "O1–O3"
-       ]
-      }
-     ]
+     "type": "tree",
+     "title": "Job architecture: levels and families",
+     "root": {
+      "label": "Job architecture",
+      "text": "Every job has a family and a level",
+      "children": [
+       {
+        "label": "Levels",
+        "text": "Career streams",
+        "children": [
+         {
+          "label": "Executive",
+          "text": "E1–E2"
+         },
+         {
+          "label": "Management",
+          "text": "M1–M3"
+         },
+         {
+          "label": "Professional",
+          "text": "P1–P4"
+         },
+         {
+          "label": "Technical & support",
+          "text": "T1–T3"
+         },
+         {
+          "label": "Operational",
+          "text": "O1–O3"
+         }
+        ]
+       },
+       {
+        "label": "Job families",
+        "text": "Kinds of work",
+        "children": [
+         {
+          "label": "Finance",
+          "children": [
+           {
+            "label": "Accounting"
+           },
+           {
+            "label": "Payroll"
+           }
+          ]
+         },
+         {
+          "label": "People",
+          "children": [
+           {
+            "label": "Reward"
+           },
+           {
+            "label": "Talent"
+           }
+          ]
+         },
+         {
+          "label": "Operations",
+          "children": [
+           {
+            "label": "Production"
+           },
+           {
+            "label": "Logistics"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "A role's place is where a family (the kind of work) meets a level (its size, set by job evaluation): a payroll specialist might be Finance › Payroll at level P2. A clear architecture is the base that pay transparency and skills-based mobility both build on."
     },
     {
      "type": "scenario",
@@ -556,6 +676,16 @@ TRACK.modules.push({
        "term": "Job family",
        "def": "A group of jobs with similar type of work and skills, organised into progressive levels."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Job evaluation sizes the job, not the person.",
+      "Point-factor schemes are analytical and the most defensible for equal-value pay; check the factors for hidden bias.",
+      "Market pricing keeps pay competitive but can import market bias.",
+      "A job architecture places every role in a family and a level."
      ]
     },
     {
@@ -723,6 +853,48 @@ TRACK.modules.push({
      "note": "The same formulas work in any spreadsheet tool. Keep inputs and formulas on separate rows so reviewers can check them."
     },
     {
+     "type": "chart",
+     "title": "Grade ranges: minimum, midpoint and maximum",
+     "kind": "line",
+     "labels": [
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6"
+     ],
+     "series": [
+      {
+       "name": "Maximum",
+       "values": [
+        45.5,
+        52.5,
+        61.6,
+        72.0
+       ]
+      },
+      {
+       "name": "Midpoint",
+       "values": [
+        39,
+        45,
+        52,
+        60
+       ]
+      },
+      {
+       "name": "Minimum",
+       "values": [
+        32.5,
+        37.5,
+        42.4,
+        48.0
+       ]
+      }
+     ],
+     "yLabel": "BDT thousand per month",
+     "caption": "Illustrative structure built with this lesson's formulas (40% spreads for grades 3–4, then 45% and 50%; midpoints about 15% apart). Notice the overlap: each range maximum sits above the next grade's midpoint, so experienced people can progress without promotion."
+    },
+    {
      "type": "compare",
      "title": "Traditional grades vs broadbands",
      "columns": [
@@ -777,6 +949,44 @@ TRACK.modules.push({
      "kind": "pro",
      "text": "Compa-ratios help managers see who is underpaid relative to competence and the market. Pair them with performance and time in role: a strong performer at 0.85 deserves attention; a new joiner at 0.85 may be appropriately placed.",
      "title": "Use compa-ratio to steer, not to punish"
+    },
+    {
+     "type": "matrix",
+     "title": "Reading pay position against performance",
+     "x": "Performance",
+     "y": "Compa-ratio",
+     "quadrants": [
+      {
+       "title": "Review",
+       "items": [
+        "Paid high for results shown",
+        "Smaller or lump-sum increases",
+        "Address performance"
+       ]
+      },
+      {
+       "title": "Sustain",
+       "items": [
+        "High pay, high performance",
+        "Recognise; consider promotion if the job has grown"
+       ]
+      },
+      {
+       "title": "Develop",
+       "items": [
+        "Low in range, still learning",
+        "Normal for new joiners; build capability"
+       ]
+      },
+      {
+       "title": "Fix first",
+       "items": [
+        "Strong performer paid low",
+        "Move towards midpoint; retention risk"
+       ]
+      }
+     ],
+     "caption": "Plot each person's compa-ratio against performance before the pay review. Strong performers low in their range (bottom right) are the biggest retention risk and the first call on the budget."
     },
     {
      "type": "template",
@@ -883,6 +1093,16 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Match survey jobs on content and level, age the data, use percentiles and respect competition law.",
+      "Build ranges from a market midpoint and a spread; overlap between grades is normal.",
+      "Compa-ratio = pay ÷ midpoint; range penetration = (pay − minimum) ÷ (maximum − minimum).",
+      "Handle green- and red-circled pay deliberately, and read pay position alongside performance."
+     ]
+    },
+    {
      "type": "quiz",
      "items": [
       {
@@ -953,7 +1173,7 @@ TRACK.modules.push({
     "Use a merit matrix to allocate pay increases",
     "Choose incentive designs that support the right behaviours",
     "Design a benefits package for different employee groups",
-    "Explain common statutory and customary benefits in South Asia, with a check-local-law approach"
+    "Distinguish statutory, customary and voluntary benefits, using South Asian examples and a check-local-law approach"
    ],
    "blocks": [
     {
@@ -1065,8 +1285,93 @@ TRACK.modules.push({
      "title": "Incentives drive behaviour, including bad behaviour"
     },
     {
+     "type": "chart",
+     "title": "An incentive payout curve",
+     "kind": "line",
+     "labels": [
+      "80%",
+      "90%",
+      "100%",
+      "110%",
+      "120%",
+      "130%"
+     ],
+     "series": [
+      {
+       "name": "Payout as % of target bonus",
+       "values": [
+        0,
+        50,
+        100,
+        150,
+        200,
+        200
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Payout",
+     "caption": "Illustrative design: nothing is paid below a threshold (90% of target, which pays 50%), payout rises steeply to and beyond target, and a cap (200%) limits windfalls and the temptation to game. Quality and compliance gates apply at every point on the curve."
+    },
+    {
+     "type": "tree",
+     "title": "Three kinds of benefit",
+     "root": {
+      "label": "Benefits package",
+      "children": [
+       {
+        "label": "Statutory",
+        "text": "Required by law; varies by country",
+        "children": [
+         {
+          "label": "Paid leave and holidays"
+         },
+         {
+          "label": "Social insurance or pension"
+         },
+         {
+          "label": "Maternity and parental"
+         },
+         {
+          "label": "Gratuity or severance",
+          "text": "Where required"
+         }
+        ]
+       },
+       {
+        "label": "Customary",
+        "text": "Expected in the market",
+        "children": [
+         {
+          "label": "Festival bonus"
+         },
+         {
+          "label": "Meals and transport"
+         }
+        ]
+       },
+       {
+        "label": "Voluntary",
+        "text": "Chosen to compete",
+        "children": [
+         {
+          "label": "Health insurance"
+         },
+         {
+          "label": "Learning budget"
+         },
+         {
+          "label": "Flexible benefits menu"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Secure the statutory layer first (it differs by country), then match market custom, then choose voluntary benefits by what employees value most, as the NGO scenario below shows. A benefit can be statutory in one country and voluntary in another."
+    },
+    {
      "type": "table",
-     "title": "Common benefits in Bangladesh and South Asia (general overview)",
+     "title": "Example: common benefits in Bangladesh and wider South Asia (general overview; rules vary by country)",
      "head": [
       "Benefit",
       "What it is",
@@ -1191,6 +1496,16 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Base pay can progress by merit, skills, service or cost of living; a merit matrix links increases to performance and position in range.",
+      "Variable pay rewards results without permanent cost; balance volume with quality, compliance and customer outcomes, with caps and clawback.",
+      "Benefits are statutory, customary or voluntary: check local law first, then fund what employees value.",
+      "Flexible benefits raise perceived value but need clear rules, technology and tax advice."
+     ]
+    },
+    {
      "type": "quiz",
      "items": [
       {
@@ -1301,6 +1616,31 @@ TRACK.modules.push({
      "title": "Reading a pay gap"
     },
     {
+     "type": "chart",
+     "title": "Women's share of each pay quartile",
+     "kind": "bar",
+     "labels": [
+      "Lower",
+      "Lower middle",
+      "Upper middle",
+      "Upper"
+     ],
+     "series": [
+      {
+       "name": "Women",
+       "values": [
+        48,
+        41,
+        30,
+        18
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Share of quartile",
+     "caption": "The bank from the example above; the two middle values are illustrative. The falling bars show where the 15% mean gap comes from: women are well represented in lower-paid roles and scarce at the top."
+    },
+    {
      "type": "steps",
      "title": "Running a pay equity review",
      "items": [
@@ -1357,8 +1697,35 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "insight",
-     "text": "A growing number of jurisdictions require pay ranges in job ads, ban asking about salary history, or require pay gap reporting. The European Union's pay transparency directive, due to be applied by member states from 2026, is a major example. Even where it is not required, publishing ranges internally is a strong test of whether your structure is defensible.",
-     "title": "Transparency is spreading"
+     "text": "A growing number of jurisdictions require pay ranges in job ads, ban questions about salary history or require gender pay gap reporting. The most far-reaching example is the **EU Pay Transparency Directive** (2023). Member states had to bring it into national law by **7 June 2026**; several were late, and national details differ, so check each country's current law. Its core elements: pay information for candidates before interview; no salary-history questions; pay-setting and progression criteria available to employees; a right for workers to ask for their own pay level and average pay by sex for the same work or work of equal value; gender pay gap reporting by employers with 100 or more workers; and a **joint pay assessment** with worker representatives where reporting shows a gap of 5% or more in a category of workers that the employer cannot justify and does not fix within six months. Even where none of this is required, publishing ranges internally is a strong test of whether your structure is defensible.",
+     "title": "Transparency rules are spreading"
+    },
+    {
+     "type": "timeline",
+     "title": "EU Pay Transparency Directive: key dates",
+     "items": [
+      {
+       "when": "May 2023",
+       "label": "Adopted",
+       "text": "Directive (EU) 2023/970; in force from June 2023"
+      },
+      {
+       "when": "7 June 2026",
+       "label": "Transposition deadline",
+       "text": "National laws due, covering candidates, information rights and pay secrecy"
+      },
+      {
+       "when": "7 June 2027",
+       "label": "First gap reports, 150+ workers",
+       "text": "Then yearly for 250+ workers and every three years for 150–249"
+      },
+      {
+       "when": "7 June 2031",
+       "label": "First reports, 100–149 workers",
+       "text": "Then every three years"
+      }
+     ],
+     "caption": "Dates come from the directive; national laws may add detail or bring some duties forward, and several countries missed the 2026 deadline. Always check the current national timetable."
     },
     {
      "type": "keypoints",
@@ -1455,7 +1822,7 @@ TRACK.modules.push({
       },
       {
        "term": "Pay transparency",
-       "def": "Openness about pay ranges, criteria and decisions, inside the organisation and sometimes in job ads."
+       "def": "Openness about pay ranges, criteria and decisions, inside the organisation and in job ads; increasingly required by law, for example under the EU Pay Transparency Directive."
       },
       {
        "term": "Pay quartile",
@@ -1464,7 +1831,22 @@ TRACK.modules.push({
       {
        "term": "Ghost employee",
        "def": "A fictitious or departed person kept on the payroll so that pay is wrongly diverted."
+      },
+      {
+       "term": "Joint pay assessment",
+       "def": "Under the EU Pay Transparency Directive, a review carried out with worker representatives when an unjustified gender pay gap of 5% or more in a category of workers is not corrected within six months."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Equal pay concerns equal work or work of equal value; a pay gap compares averages across the organisation.",
+      "Report mean and median gaps plus quartile representation, and investigate the unexplained gap.",
+      "Fix unexplained gaps and the processes that caused them, such as negotiated starting pay.",
+      "Pay transparency rules, led by the EU directive, are spreading: build structures you can explain.",
+      "Protect payroll with segregation of duties, reconciliation, variance checks and audit trails."
      ]
     },
     {
@@ -1524,6 +1906,17 @@ TRACK.modules.push({
        ],
        "answer": 3,
        "explain": "Structured starting pay reduces the effect of negotiation and past pay inequities."
+      },
+      {
+       "q": "Under national laws implementing the EU Pay Transparency Directive, which recruitment practice must employers stop?",
+       "options": [
+        "Publishing pay ranges on the internal intranet",
+        "Asking candidates about their pay history",
+        "Using job evaluation to place roles in grades",
+        "Running a pay equity review every year with worker representatives"
+       ],
+       "answer": 1,
+       "explain": "The directive bars employers from asking candidates about their pay history and requires pay information before interview. Publishing ranges, job evaluation and equity reviews all support its aims."
       }
      ]
     }
@@ -1649,10 +2042,49 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "matrix",
+     "title": "Mapping voice channels",
+     "x": "Individual to collective voice",
+     "y": "Formality",
+     "quadrants": [
+      {
+       "title": "Formal, individual",
+       "items": [
+        "Grievance procedure",
+        "Speak-up or whistleblowing line"
+       ]
+      },
+      {
+       "title": "Formal, collective",
+       "items": [
+        "Trade unions and bargaining",
+        "Participation committees or works councils",
+        "Safety committees"
+       ]
+      },
+      {
+       "title": "Everyday, individual",
+       "items": [
+        "One-to-ones and check-ins",
+        "Open-door conversations"
+       ]
+      },
+      {
+       "title": "Everyday, collective",
+       "items": [
+        "Team huddles",
+        "Town halls",
+        "Pulse surveys and listening tools"
+       ]
+      }
+     ],
+     "caption": "Healthy organisations use all four quadrants. Most issues should be settled in the bottom row; the top row is the safety net when everyday channels fail or the issue is serious."
+    },
+    {
      "type": "callout",
      "kind": "example",
-     "text": "Labour law in Bangladesh provides for participation committees and, in qualifying factories, trade unions and collective bargaining agents; safety committees are also required in many factories. Factories that run these bodies genuinely, with elected worker representatives, regular minutes and visible follow-up, tend to resolve issues before they become stoppages. Export processing zones have a separate legal framework, so always check which law applies.",
-     "title": "Voice in Bangladesh's garment sector"
+     "text": "Labour law in Bangladesh provides for participation committees and, in qualifying factories, trade unions and collective bargaining agents; safety committees are also required in many factories. Factories that run these bodies genuinely, with elected worker representatives, regular minutes and visible follow-up, tend to resolve issues before they become stoppages. Export processing zones have a separate legal framework, so always check which law applies. Rules on representation differ widely between countries (many European countries, for example, require works councils in larger workplaces), so check which bodies the law requires where you operate.",
+     "title": "Country example: voice in Bangladesh's garment sector"
     },
     {
      "type": "flow",
@@ -1754,6 +2186,16 @@ TRACK.modules.push({
        "term": "Mediation",
        "def": "A voluntary, confidential process in which a neutral person helps parties in conflict reach their own agreement."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Good employee relations rest on trust, fair process and real channels to be heard.",
+      "The psychological contract is unwritten but powerful; breaking it damages trust fast.",
+      "Use both unitarist and pluralist lenses, and offer individual and collective, everyday and formal voice.",
+      "Resolve conflict early and use neutral mediation before formal procedures."
      ]
     },
     {
@@ -1876,8 +2318,9 @@ TRACK.modules.push({
      ]
     },
     {
-     "type": "flow",
+     "type": "cycle",
      "title": "The engagement survey cycle",
+     "center": "Listen and act",
      "items": [
       {
        "label": "Design",
@@ -1903,13 +2346,20 @@ TRACK.modules.push({
        "label": "Follow up",
        "text": "Pulse surveys to check progress"
       }
-     ]
+     ],
+     "caption": "The loop only works if it closes: visible action and a follow-up pulse show people that speaking up changes things, which keeps response rates and honesty high."
     },
     {
      "type": "callout",
      "kind": "warning",
      "text": "Asking people for their views and then doing nothing visible is worse than not asking. Response rates fall and cynicism grows. Commit before the survey to sharing results within weeks and to at least one visible action per team.",
      "title": "Surveys without action do harm"
+    },
+    {
+     "type": "callout",
+     "kind": "insight",
+     "title": "From annual survey to listening system",
+     "text": "Many organisations now run **continuous listening**: a short annual or twice-yearly survey, frequent pulses, lifecycle surveys (after onboarding, promotion or exit), open comment channels and, increasingly, AI text analytics to find themes in thousands of comments. More data helps only if it leads to action. Keep anonymity thresholds, explain what is collected and why, avoid covert \"passive listening\" on emails or chats unless it is lawful, proportionate and openly explained, and never use comments to identify individuals."
     },
     {
      "type": "formula",
@@ -1942,6 +2392,29 @@ TRACK.modules.push({
      "kind": "example",
      "text": "At a Dhaka software company, 200 people answer the recommend question: 90 score 9–10, 70 score 7–8 and 40 score 0–6. Promoters = 45%, detractors = 20%. eNPS = 45 − 20 = **+25**. Passives (7–8) count in the total but not in the score.",
      "title": "Calculating eNPS"
+    },
+    {
+     "type": "chart",
+     "title": "eNPS example: 200 responses",
+     "kind": "bar",
+     "labels": [
+      "Detractors (0–6)",
+      "Passives (7–8)",
+      "Promoters (9–10)"
+     ],
+     "series": [
+      {
+       "name": "Share of respondents",
+       "values": [
+        20,
+        35,
+        45
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Respondents",
+     "caption": "Worked-example data: eNPS = 45 − 20 = +25. Passives (35%) do not enter the score, but they are often the easiest group to move."
     },
     {
      "type": "compare",
@@ -2063,7 +2536,21 @@ TRACK.modules.push({
       {
        "term": "Flight risk",
        "def": "An assessment that a valued employee is likely to leave in the near future."
+      },
+      {
+       "term": "Continuous listening",
+       "def": "Gathering employee views through a mix of short surveys, pulses, lifecycle surveys and open channels throughout the year, and acting on them."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Engagement is energy and discretionary effort; managers, fairness, growth, voice and wellbeing drive it.",
+      "Close the listening loop: share results quickly and act visibly, or cynicism grows.",
+      "eNPS = % promoters − % detractors; track trends and protect anonymity.",
+      "Use stay interviews to act before valued people leave."
      ]
     },
     {
@@ -2135,7 +2622,7 @@ TRACK.modules.push({
    "minutes": 26,
    "objectives": [
     "Identify the main areas of employment law HR must manage",
-    "Describe in general terms key themes of Bangladesh's labour law framework",
+    "Describe in general terms how one national framework covers these areas, using Bangladesh as a country example",
     "Build a simple compliance calendar and record system",
     "Know when to seek legal advice"
    ],
@@ -2210,8 +2697,62 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "tree",
+     "title": "Where employment rules come from",
+     "root": {
+      "label": "Employment rules",
+      "children": [
+       {
+        "label": "International",
+        "children": [
+         {
+          "label": "ILO conventions",
+          "text": "As ratified"
+         },
+         {
+          "label": "Buyer and investor codes"
+         }
+        ]
+       },
+       {
+        "label": "National and local",
+        "children": [
+         {
+          "label": "Acts and codes"
+         },
+         {
+          "label": "Rules and notifications"
+         },
+         {
+          "label": "Court decisions"
+         }
+        ]
+       },
+       {
+        "label": "Workplace",
+        "children": [
+         {
+          "label": "Collective agreements"
+         },
+         {
+          "label": "Employment contracts"
+         },
+         {
+          "label": "Policies and handbooks"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "Several layers apply at once. Generally a contract or policy cannot give less than the law requires but can give more, and buyer codes may ask for more again. Which international instruments bind an employer depends on what its country has ratified and how it applies them."
+    },
+    {
+     "type": "text",
+     "text": "Every country organises these areas differently. The table below uses Bangladesh as a worked country example; if you work elsewhere, build the same table for your own jurisdiction from official sources."
+    },
+    {
      "type": "table",
-     "title": "Bangladesh: labour law themes in general terms",
+     "title": "Country example: Bangladesh labour-law themes in general terms",
      "head": [
       "Theme",
       "What the framework generally covers",
@@ -2220,8 +2761,8 @@ TRACK.modules.push({
      "rows": [
       [
        "Coverage",
-       "A main labour act with implementing rules covers most private-sector establishments; export processing zones have a separate labour law",
-       "Confirm which law applies to each site and category of worker"
+       "A main labour act with implementing rules covers most private-sector establishments; export processing zones have a separate labour law; the act has been amended several times, including recent reforms",
+       "Confirm which law applies to each site and category of worker, using the latest amended text"
       ],
       [
        "Appointment and records",
@@ -2319,7 +2860,7 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "definition",
-     "text": "HR holds sensitive personal data: health, family details, bank accounts, disciplinary records. Many countries now have data protection laws; even where rules are still developing, good practice is to collect only what is needed, restrict access, keep it secure, tell people how it is used and delete it when no longer needed.",
+     "text": "HR holds sensitive personal data: health, family details, bank accounts, disciplinary records. Most countries now have data protection laws, such as the GDPR in the European Union, and several countries, including in South Asia, have recently introduced or strengthened theirs. Good practice everywhere: collect only what is needed, restrict access, keep it secure, tell people how it is used and delete it when no longer needed.",
      "title": "Data protection in HR"
     },
     {
@@ -2384,6 +2925,16 @@ TRACK.modules.push({
        "term": "Data protection",
        "def": "Rules and practices that govern how personal data is collected, used, stored, shared and deleted."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Employment law covers starting work, pay and time, equality, health and safety, conduct and process, and ending employment; the details vary by country.",
+      "Several layers of rules apply at once; contracts and policies can give more than the law, not less.",
+      "Use a compliance calendar and keep the records that prove lawful, fair practice.",
+      "Treat the law as the floor and take legal advice for specific cases."
      ]
     },
     {
@@ -2540,6 +3091,74 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "sequence",
+     "title": "A fair disciplinary process",
+     "actors": [
+      "Manager",
+      "Investigator",
+      "Employee",
+      "Hearing chair",
+      "Appeal panel"
+     ],
+     "steps": [
+      {
+       "from": "Manager",
+       "to": "Investigator",
+       "label": "Refers concern; terms of reference"
+      },
+      {
+       "from": "Investigator",
+       "to": "Employee",
+       "label": "Interview: allegation explained"
+      },
+      {
+       "from": "Employee",
+       "to": "Investigator",
+       "label": "Gives account; names witnesses",
+       "reply": true
+      },
+      {
+       "from": "Investigator",
+       "to": "Hearing chair",
+       "label": "Report: facts on balance of probability"
+      },
+      {
+       "from": "Hearing chair",
+       "to": "Employee",
+       "label": "Written invitation and evidence",
+       "note": "notice; companion where allowed"
+      },
+      {
+       "from": "Employee",
+       "to": "Hearing chair",
+       "label": "Responds at the hearing",
+       "reply": true
+      },
+      {
+       "from": "Hearing chair",
+       "to": "Hearing chair",
+       "label": "Decides; checks consistency"
+      },
+      {
+       "from": "Hearing chair",
+       "to": "Employee",
+       "label": "Outcome letter with reasons"
+      },
+      {
+       "from": "Employee",
+       "to": "Appeal panel",
+       "label": "Appeals, if dissatisfied"
+      },
+      {
+       "from": "Appeal panel",
+       "to": "Employee",
+       "label": "Appeal outcome",
+       "reply": true
+      }
+     ],
+     "caption": "Four roles, ideally four people: the manager raises the concern, the investigator finds facts, the chair decides and an appeal panel reviews. Keeping them separate makes the outcome impartial; the right to be accompanied depends on law and policy."
+    },
+    {
      "type": "table",
      "title": "Sanctions and their uses",
      "head": [
@@ -2572,13 +3191,13 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "warning",
-     "text": "Sexual and other harassment complaints require prompt, sensitive and impartial handling, protection from retaliation, and support for the complainant. In Bangladesh, court guidelines issued in 2009 call on workplaces and educational institutions to prevent sexual harassment and set up complaint committees with women in leadership. Many countries have specific laws; check what applies and train the people who handle complaints.",
+     "text": "Sexual and other harassment complaints require prompt, sensitive and impartial handling, protection from retaliation, and support for the complainant. The ILO Violence and Harassment Convention (No. 190, 2019) sets an international standard that a growing number of countries have ratified. Many countries have specific laws or court guidance; in Bangladesh, for example, High Court guidelines issued in 2009 call on workplaces and educational institutions to prevent sexual harassment and set up complaint committees led by women. Check what applies and train the people who handle complaints.",
      "title": "Harassment complaints need special care"
     },
     {
      "type": "callout",
      "kind": "definition",
-     "text": "**Whistleblowing** is raising a concern about wrongdoing such as fraud, safety breaches, corruption or legal violations, usually in the public interest. Good organisations provide confidential channels, investigate concerns, and protect whistleblowers from retaliation.",
+     "text": "**Whistleblowing** is raising a concern about wrongdoing such as fraud, safety breaches, corruption or legal violations, usually in the public interest. Good organisations provide confidential channels, investigate concerns, and protect whistleblowers from retaliation. Some laws set specific duties: EU rules, for example, require organisations with 50 or more workers to run internal reporting channels, acknowledge reports within seven days and give feedback within three months.",
      "title": "Whistleblowing"
     },
     {
@@ -2622,6 +3241,65 @@ TRACK.modules.push({
       "What wider actions might be needed?"
      ],
      "answer": "A quiet word does not establish the facts, does not protect the complainant, and signals that influential people are treated differently, which damages trust and may breach legal duties and the university's own policy. The complaint should go to the designated complaints committee or an impartial investigator, with clear terms of reference, interviews with all parties and witnesses, review of messages and a written report. During the process, the complainant should be protected from retaliation, for example by changing reporting lines or meeting arrangements, offered support, and kept informed. The professor should be told the allegations and given a fair chance to respond. If the allegations are upheld, a proportionate sanction must follow regardless of grant income. Wider actions: refresh policy and training, check whether others were affected, review how complaints are raised, and report patterns to leadership."
+    },
+    {
+     "type": "sequence",
+     "title": "Handling a written grievance",
+     "actors": [
+      "Employee",
+      "HR",
+      "Hearing manager",
+      "Manager named"
+     ],
+     "steps": [
+      {
+       "from": "Employee",
+       "to": "HR",
+       "label": "Submits written grievance"
+      },
+      {
+       "from": "HR",
+       "to": "Employee",
+       "label": "Acknowledges; explains steps and timing",
+       "reply": true
+      },
+      {
+       "from": "HR",
+       "to": "Hearing manager",
+       "label": "Appoints an impartial manager"
+      },
+      {
+       "from": "Hearing manager",
+       "to": "Employee",
+       "label": "Meeting to understand the grievance"
+      },
+      {
+       "from": "Hearing manager",
+       "to": "Manager named",
+       "label": "Hears the other side; gathers facts"
+      },
+      {
+       "from": "Hearing manager",
+       "to": "Hearing manager",
+       "label": "Weighs evidence; decides"
+      },
+      {
+       "from": "Hearing manager",
+       "to": "Employee",
+       "label": "Written outcome and actions"
+      },
+      {
+       "from": "Hearing manager",
+       "to": "Manager named",
+       "label": "Outcome and any actions"
+      },
+      {
+       "from": "Employee",
+       "to": "HR",
+       "label": "Appeals if not resolved"
+      }
+     ],
+     "caption": "The person hearing the grievance sits outside the reporting line, as the scenario below requires. Informal resolution can be offered first, but a written grievance gets a fair hearing, a reasoned decision and a route to appeal."
     },
     {
      "type": "scenario",
@@ -2685,6 +3363,16 @@ TRACK.modules.push({
        "term": "Exit interview",
        "def": "A conversation or survey with a departing employee to understand their reasons and experience."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Fair procedure: know the case, be heard, a neutral decision-maker, consistency, proportionality, timeliness and appeal.",
+      "Separate investigator, decision-maker and appeal roles, and decide on the balance of probabilities.",
+      "Handle harassment and whistleblowing promptly and impartially, with protection from retaliation.",
+      "Exit people respectfully: settle dues on time, remove access and learn from exit interviews."
      ]
     },
     {
@@ -2836,10 +3524,41 @@ TRACK.modules.push({
      "title": "Women supervisors in garment factories"
     },
     {
+     "type": "chart",
+     "title": "Women's share by level",
+     "kind": "bar",
+     "labels": [
+      "Operators",
+      "Line leaders",
+      "Supervisors",
+      "Managers"
+     ],
+     "series": [
+      {
+       "name": "Women",
+       "values": [
+        60,
+        32,
+        12,
+        8
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Share of level",
+     "caption": "Illustrative pattern, typical of the garment example above: representation falls sharply at the first promotion step. Analyse each step (who applies, who is selected, who leaves) to find where the pipeline leaks."
+    },
+    {
      "type": "callout",
      "kind": "warning",
      "text": "Inclusion efforts fail when they are symbolic (a poster, a one-off workshop) or when people feel targets are imposed without fair process. Focus on removing barriers, using fair processes for everyone and measuring outcomes. Explain the purpose openly.",
      "title": "Tokenism and backlash"
+    },
+    {
+     "type": "callout",
+     "kind": "insight",
+     "title": "A changing landscape",
+     "text": "The legal and political climate for diversity programmes differs sharply between countries and has shifted in recent years. In some places, notably the United States since 2025, many employers have reviewed or renamed programmes and moved away from practices that could be seen as preferential; elsewhere, as in the EU, duties to report and act on pay gaps have grown. Whatever the label, the durable core is the same: fair, job-related processes for everyone, accessible workplaces, inclusive leadership and outcome data checked for barriers. Check what the law allows and requires where you operate."
     },
     {
      "type": "layers",
@@ -2882,7 +3601,7 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "insight",
-     "text": "Yoga sessions and wellness apps help some people, but they cannot offset chronic overload, unclear roles, poor management or harassment. Psychosocial risks such as excessive workload, low control, poor support and conflict should be assessed and managed like any other workplace hazard.",
+     "text": "Yoga sessions and wellness apps help some people, but they cannot offset chronic overload, unclear roles, poor management or harassment. Psychosocial risks such as excessive workload, low control, poor support and conflict should be assessed and managed like any other workplace hazard. The international guideline ISO 45003 (2021) describes how to manage psychosocial risks within an occupational health and safety system.",
      "title": "Fix the work before the worker"
     },
     {
@@ -2982,6 +3701,16 @@ TRACK.modules.push({
        "term": "Employee assistance programme (EAP)",
        "def": "A confidential service offering counselling and advice to employees on personal and work issues."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Diversity is who is here; equity is fair access; inclusion is how people experience work.",
+      "Remove barriers across the lifecycle and measure outcomes at each step, not symbols.",
+      "Laws on diversity programmes differ by country; fair, job-related processes for everyone are the durable core.",
+      "Manage psychosocial risks like other hazards: fix workload, control and support before offering individual coping tools."
      ]
     },
     {
@@ -3109,30 +3838,41 @@ TRACK.modules.push({
      "title": "You need both"
     },
     {
-     "type": "flow",
+     "type": "timeline",
      "title": "How thinking about leadership has evolved",
      "items": [
       {
+       "when": "Early 1900s",
        "label": "Traits",
        "text": "Are leaders born with special qualities?"
       },
       {
+       "when": "1940s–1960s",
        "label": "Behaviours",
-       "text": "What do effective leaders actually do?"
+       "text": "What do effective leaders do? Task and people focus"
       },
       {
+       "when": "1960s–1970s",
        "label": "Situational",
-       "text": "Which style fits which situation?"
+       "text": "Which style fits which situation and follower?"
       },
       {
+       "when": "Late 1970s",
        "label": "Transformational",
        "text": "How do leaders inspire change and growth?"
       },
       {
-       "label": "Shared and servant",
-       "text": "How do leaders serve and distribute leadership?"
+       "when": "1990s–2000s",
+       "label": "Shared, servant, authentic",
+       "text": "Leadership spread across teams and grounded in service and values"
+      },
+      {
+       "when": "2020s",
+       "label": "Inclusive and hybrid",
+       "text": "Leading dispersed, diverse teams and AI-enabled work"
       }
-     ]
+     ],
+     "caption": "Each wave added a lens rather than replacing the last, and the dates are approximate. Practitioners today borrow from all of them: behaviours can be learned, style should fit the situation, and purpose and inclusion sustain commitment."
     },
     {
      "type": "table",
@@ -3232,10 +3972,53 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "matrix",
+     "title": "Matching style to the person",
+     "x": "Skill for this task",
+     "y": "Commitment and confidence",
+     "quadrants": [
+      {
+       "title": "Direct",
+       "items": [
+        "New and keen",
+        "Clear steps, demonstration, close guidance"
+       ]
+      },
+      {
+       "title": "Delegate",
+       "items": [
+        "Expert and committed",
+        "Hand over, stay available, recognise"
+       ]
+      },
+      {
+       "title": "Coach",
+       "items": [
+        "Learning but discouraged",
+        "Direct, explain why, encourage"
+       ]
+      },
+      {
+       "title": "Support",
+       "items": [
+        "Capable but unsure",
+        "Involve, listen, build confidence"
+       ]
+      }
+     ],
+     "caption": "Diagnose the person for the specific task, not in general: the same analyst may need delegation on reporting and direction on a new system. Move round the grid as skill and confidence grow."
+    },
+    {
      "type": "callout",
      "kind": "example",
      "text": "In many South Asian workplaces, people expect clear hierarchy and may hesitate to disagree with a senior manager. A Dhaka bank's new branch manager found her team rarely raised problems. She began asking juniors to speak first in meetings, thanked people publicly for reporting issues, and acted visibly on their input. Within a quarter, more problems were raised early and complaints fell.",
      "title": "Leading in a high power-distance culture"
+    },
+    {
+     "type": "callout",
+     "kind": "pro",
+     "title": "Inclusive leadership in daily behaviour",
+     "text": "Inclusive leaders invite quieter voices first, share stretch work fairly, give credit by name, notice who is missing from decisions and check their own patterns: whom do I mentor, promote or interrupt? In hybrid teams they make sure remote members are heard as clearly as those in the room. These behaviours can be observed, so they can be built into manager expectations and upward feedback."
     },
     {
      "type": "callout",
@@ -3305,6 +4088,16 @@ TRACK.modules.push({
        "term": "Pacesetting style",
        "def": "A leadership style in which the leader sets very high standards and models fast performance personally."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Leadership is influence towards shared goals; good managers switch between managing and leading.",
+      "No single style fits all: match direction and support to the person's skill and confidence for the task.",
+      "Transformational and servant approaches build commitment; transactional clarity still has a place.",
+      "In high power-distance and hybrid settings, deliberately invite voice and share opportunities fairly."
      ]
     },
     {
@@ -3455,6 +4248,28 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "chart",
+     "title": "Motivational force in three situations",
+     "kind": "bar",
+     "labels": [
+      "Achievable, trusted",
+      "Target \"impossible\"",
+      "Payout doubted"
+     ],
+     "series": [
+      {
+       "name": "E × I × V",
+       "values": [
+        0.65,
+        0.22,
+        0.14
+       ]
+      }
+     ],
+     "yLabel": "Motivational force",
+     "caption": "Illustrative values on 0–1 scales: 0.9 × 0.9 × 0.8, then 0.3 × 0.9 × 0.8, then 0.9 × 0.2 × 0.8. Because the factors multiply, one weak link cuts motivation more than a bigger bonus can restore, as in the logistics example below."
+    },
+    {
      "type": "callout",
      "kind": "example",
      "text": "A Chattogram logistics company offered a quarterly bonus for zero delivery errors. Drivers believed the target was impossible because the address data was poor (low expectancy), and last year's bonus was cancelled after targets were met (low instrumentality). Fixing the address data and paying a smaller, reliable bonus raised motivation more than doubling the bonus would have.",
@@ -3484,6 +4299,41 @@ TRACK.modules.push({
        ]
       }
      ]
+    },
+    {
+     "type": "matrix",
+     "title": "Hygiene factors and motivators together",
+     "x": "Hygiene factors (pay, conditions, policies)",
+     "y": "Motivators (recognition, growth, the work itself)",
+     "quadrants": [
+      {
+       "title": "Engaged but frustrated",
+       "items": [
+        "Love the work, unhappy with pay or conditions",
+        "Fix hygiene before people leave"
+       ]
+      },
+      {
+       "title": "Motivated and settled",
+       "items": [
+        "The aim: fair basics and meaningful work"
+       ]
+      },
+      {
+       "title": "Demotivated and dissatisfied",
+       "items": [
+        "Urgent: fix both"
+       ]
+      },
+      {
+       "title": "Not unhappy, not inspired",
+       "items": [
+        "Fair pay, little meaning",
+        "Add recognition, responsibility, growth"
+       ]
+      }
+     ],
+     "caption": "The two sets of factors act on different scales: fixing pay moves people to the right, not up. The university in the scenario below sits bottom-right after its pay rise."
     },
     {
      "type": "callout",
@@ -3566,6 +4416,16 @@ TRACK.modules.push({
        "term": "Equity theory",
        "def": "A theory that people compare their inputs and outcomes with others and act to restore perceived fairness."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Fair, adequate pay is necessary; autonomy, mastery, purpose, recognition and fairness sustain effort.",
+      "Self-determination theory: support autonomy, competence and relatedness.",
+      "Expectancy theory: motivation = E × I × V, so fix the weakest link.",
+      "Hygiene factors prevent dissatisfaction, motivators create satisfaction, and fairness is judged by comparison."
      ]
     },
     {
@@ -3773,6 +4633,67 @@ TRACK.modules.push({
      "title": "A five-minute coaching conversation"
     },
     {
+     "type": "sequence",
+     "title": "A five-minute GROW conversation",
+     "actors": [
+      "Manager",
+      "Supervisor"
+     ],
+     "steps": [
+      {
+       "from": "Supervisor",
+       "to": "Manager",
+       "label": "\"My night team keeps missing details.\""
+      },
+      {
+       "from": "Manager",
+       "to": "Supervisor",
+       "label": "Goal: \"What would a good handover be?\""
+      },
+      {
+       "from": "Supervisor",
+       "to": "Manager",
+       "label": "Complete, two-minute handovers",
+       "reply": true
+      },
+      {
+       "from": "Manager",
+       "to": "Supervisor",
+       "label": "Reality: \"What happens now?\""
+      },
+      {
+       "from": "Supervisor",
+       "to": "Manager",
+       "label": "Rushed, no common format",
+       "reply": true
+      },
+      {
+       "from": "Manager",
+       "to": "Supervisor",
+       "label": "Options: \"What could change it?\""
+      },
+      {
+       "from": "Supervisor",
+       "to": "Manager",
+       "label": "Template, huddle, pairing new staff",
+       "reply": true
+      },
+      {
+       "from": "Manager",
+       "to": "Supervisor",
+       "label": "Way forward: \"Which will you try?\""
+      },
+      {
+       "from": "Supervisor",
+       "to": "Manager",
+       "label": "Chooses the huddle; reports back",
+       "note": "next week",
+       "reply": true
+      }
+     ],
+     "caption": "The manager speaks only in questions; every idea and the final choice come from the supervisor, which is why she owns the result. The four questions map one-to-one to GROW."
+    },
+    {
      "type": "template",
      "title": "Coaching session plan",
      "purpose": "Prepare and record a coaching conversation using GROW.",
@@ -3807,6 +4728,43 @@ TRACK.modules.push({
       "Recognise managers whose teams grow and are promoted",
       "Offer professional coaches for senior leaders and key transitions"
      ]
+    },
+    {
+     "type": "matrix",
+     "title": "When to coach and when to tell",
+     "x": "Urgency or risk",
+     "y": "Capability for this task",
+     "quadrants": [
+      {
+       "title": "Coach",
+       "items": [
+        "Capable person, time to think",
+        "Ask, listen, let them choose"
+       ]
+      },
+      {
+       "title": "Ask briefly, then act",
+       "items": [
+        "Capable person, urgent issue",
+        "One quick question, decide together, debrief later"
+       ]
+      },
+      {
+       "title": "Teach, then coach",
+       "items": [
+        "Still learning, no rush",
+        "Show how, then hand over with questions"
+       ]
+      },
+      {
+       "title": "Direct now, coach later",
+       "items": [
+        "Low experience, high risk",
+        "Clear instructions first; debrief afterwards"
+       ]
+      }
+     ],
+     "caption": "Coaching is the default when there is time and the person can find the answer; urgency and risk push you to the right. The turbine-alarm scenario below sits firmly bottom-right."
     },
     {
      "type": "scenario",
@@ -3870,6 +4828,16 @@ TRACK.modules.push({
        "term": "Debrief",
        "def": "A structured review after an event to understand what happened and what to learn."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Coaching draws out the person's own thinking; mentoring shares experience; managing directs.",
+      "Use GROW: Goal, Reality, Options, Way forward.",
+      "Listen at levels 2 and 3, ask open questions and resist the urge to fix.",
+      "Coach when there is time and capability; in urgent, high-risk moments direct first and debrief later."
      ]
     },
     {
@@ -4052,6 +5020,38 @@ TRACK.modules.push({
      "title": "Find the blocked building block"
     },
     {
+     "type": "chart",
+     "title": "A typical change curve",
+     "kind": "line",
+     "labels": [
+      "Announce",
+      "Shock",
+      "Denial",
+      "Frustration",
+      "Low point",
+      "Experiment",
+      "Decide",
+      "Integrate"
+     ],
+     "series": [
+      {
+       "name": "Morale and performance",
+       "values": [
+        70,
+        55,
+        60,
+        40,
+        30,
+        45,
+        65,
+        80
+       ]
+      }
+     ],
+     "yLabel": "Index",
+     "caption": "Illustrative curve adapted from research on how people react to loss: many dip before they recover, at different speeds. Match support to the stage: information early, listening in the dip, practice and quick wins on the way up."
+    },
+    {
      "type": "table",
      "title": "Why people resist and what helps",
      "head": [
@@ -4097,6 +5097,49 @@ TRACK.modules.push({
      "kind": "pro",
      "text": "People who object often see risks that leaders miss. Treat resistance as feedback to explore, not opposition to crush. Listening carefully can improve the change and convert critics into champions.",
      "title": "Resistance is information"
+    },
+    {
+     "type": "callout",
+     "kind": "insight",
+     "title": "Leading AI-driven change",
+     "text": "Bringing AI into work is a people change before it is a technology change. Employees worry about job security, surveillance and being judged by a machine. Effective leaders explain honestly what will and will not change, involve users in redesigning tasks, consult worker representatives where law or agreements require it (EU rules, for example, require employers to inform representatives and affected workers before using high-risk AI systems at work), fund reskilling before roles shrink, set clear rules for responsible use and build AI literacy across the workforce. Measure adoption and trust, not just licences issued."
+    },
+    {
+     "type": "timeline",
+     "title": "An AI rollout people plan",
+     "items": [
+      {
+       "when": "3 months before",
+       "label": "Case for change",
+       "text": "Purpose, benefits, risks and what will not change; consult representatives"
+      },
+      {
+       "when": "2 months before",
+       "label": "Co-design",
+       "text": "Users help redesign tasks; risk assessment; responsible-use rules"
+      },
+      {
+       "when": "1 month before",
+       "label": "Skills and champions",
+       "text": "AI literacy training; a champion in each team"
+      },
+      {
+       "when": "Go-live",
+       "label": "Launch with support",
+       "text": "Floor support and a quick feedback channel"
+      },
+      {
+       "when": "Months 1–3",
+       "label": "Reinforce",
+       "text": "Adoption by team; fix pain points; recognise early adopters"
+      },
+      {
+       "when": "Month 6",
+       "label": "Review",
+       "text": "Benefits, job impacts, fairness and trust; adjust"
+      }
+     ],
+     "caption": "Most of the people work happens before go-live. Timings are illustrative; consultation periods may be set by law or collective agreements."
     },
     {
      "type": "case",
@@ -4195,6 +5238,16 @@ TRACK.modules.push({
        "term": "Change readiness",
        "def": "The extent to which people and the organisation are prepared and able to make a change."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Change efforts fail mostly for human reasons; HR and leaders own the people side.",
+      "Use organisational steps (urgency, coalition, vision, quick wins, anchoring) and individual building blocks (awareness, desire, knowledge, ability, reinforcement).",
+      "Treat resistance as information and respond to its source.",
+      "In AI-driven change, be honest about impacts, involve users, consult where required and reskill early."
      ]
     },
     {
@@ -4357,6 +5410,41 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "matrix",
+     "title": "Psychological safety and standards",
+     "x": "Accountability and standards",
+     "y": "Psychological safety",
+     "quadrants": [
+      {
+       "title": "Comfort zone",
+       "items": [
+        "Pleasant, but little stretch or learning"
+       ]
+      },
+      {
+       "title": "Learning zone",
+       "items": [
+        "People speak up and stretch",
+        "Best for complex, uncertain work"
+       ]
+      },
+      {
+       "title": "Apathy zone",
+       "items": [
+        "Low effort, low voice"
+       ]
+      },
+      {
+       "title": "Anxiety zone",
+       "items": [
+        "High pressure, mistakes hidden",
+        "Dangerous in safety-critical work"
+       ]
+      }
+     ],
+     "caption": "Adapted from research on team learning: high standards without safety push teams into the anxiety zone, where errors go unreported, as in the pharmaceutical scenario below. Leaders aim for the learning zone by raising both together."
+    },
+    {
      "type": "flow",
      "title": "Team development stages",
      "items": [
@@ -4385,7 +5473,7 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "pro",
-     "text": "In hybrid teams, culture is built deliberately: agree team norms for response times and meeting habits, make sure remote members get equal voice, use shared documents for decisions, and plan regular in-person time for relationships. Judge people on outcomes, not on visibility in the office.",
+     "text": "In hybrid teams, culture is built deliberately: agree team norms for response times and meeting habits, make sure remote members get equal voice, use shared documents for decisions, and plan regular in-person time for relationships. Judge people on outcomes, not on visibility in the office, and watch for **proximity bias**: the tendency to rate and promote people who are seen more often.",
      "title": "Leading hybrid and distributed teams"
     },
     {
@@ -4473,7 +5561,21 @@ TRACK.modules.push({
       {
        "term": "Hybrid working",
        "def": "An arrangement in which people split work time between a shared workplace and remote locations."
+      },
+      {
+       "term": "Proximity bias",
+       "def": "The tendency to rate, reward or promote people more favourably because they are seen more often, for example in the office rather than working remotely."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Culture works at three levels; basic assumptions, revealed by what is rewarded, drive behaviour.",
+      "Diagnose culture with evidence and choose two or three \"from… to…\" shifts.",
+      "Psychological safety plus high standards puts teams in the learning zone.",
+      "Lead hybrid teams with explicit norms, equal voice and outcome-based judgement, and watch for proximity bias."
      ]
     },
     {
@@ -4661,6 +5763,35 @@ TRACK.modules.push({
      "title": "Common metric mistakes"
     },
     {
+     "type": "chart",
+     "title": "Turnover by tenure band",
+     "kind": "bar",
+     "labels": [
+      "0–3 m",
+      "3–6 m",
+      "6–12 m",
+      "1–2 y",
+      "2–5 y",
+      "5+ y"
+     ],
+     "series": [
+      {
+       "name": "Annualised turnover",
+       "values": [
+        48,
+        30,
+        22,
+        15,
+        10,
+        6
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Turnover",
+     "caption": "Illustrative data: one headline rate hides the fact that most leavers go in their first months, a pattern that points to selection, onboarding and supervision rather than pay. Segment by tenure, team and performance before acting."
+    },
+    {
      "type": "table",
      "title": "A balanced people dashboard",
      "head": [
@@ -4697,6 +5828,70 @@ TRACK.modules.push({
        "HR cost per employee, HR ratio, revenue per FTE"
       ]
      ]
+    },
+    {
+     "type": "callout",
+     "kind": "definition",
+     "title": "Human capital reporting standards",
+     "text": "**ISO 30414** is the international standard for human capital reporting, for internal use and for investors and other outside readers. It covers areas such as compliance and ethics, costs, diversity, leadership, organisational culture, health, safety and wellbeing, productivity, recruitment, mobility and turnover, skills and capabilities, succession planning and workforce availability. First published in 2018, it has since been revised, so check the current edition. Sustainability reporting rules in some regions also ask for workforce data, which makes consistent metric definitions even more important."
+    },
+    {
+     "type": "tree",
+     "title": "Human capital reporting areas, grouped",
+     "root": {
+      "label": "Human capital report",
+      "children": [
+       {
+        "label": "Cost and capacity",
+        "children": [
+         {
+          "label": "Costs"
+         },
+         {
+          "label": "Productivity"
+         },
+         {
+          "label": "Workforce availability"
+         }
+        ]
+       },
+       {
+        "label": "Talent flow",
+        "children": [
+         {
+          "label": "Recruitment, mobility, turnover"
+         },
+         {
+          "label": "Succession planning"
+         },
+         {
+          "label": "Skills and capabilities"
+         },
+         {
+          "label": "Leadership"
+         }
+        ]
+       },
+       {
+        "label": "Culture and risk",
+        "children": [
+         {
+          "label": "Compliance and ethics"
+         },
+         {
+          "label": "Diversity"
+         },
+         {
+          "label": "Organisational culture"
+         },
+         {
+          "label": "Health, safety, wellbeing"
+         }
+        ]
+       }
+      ]
+     },
+     "caption": "The eleven areas are grouped into three themes here for teaching; the standard lists them separately and distinguishes metrics suited to internal use from those suited to public reports."
     },
     {
      "type": "callout",
@@ -4769,7 +5964,21 @@ TRACK.modules.push({
       {
        "term": "Bradford factor",
        "def": "An absence measure, S² × D, that gives extra weight to frequent short spells of absence."
+      },
+      {
+       "term": "Human capital reporting",
+       "def": "Structured reporting of workforce data, such as costs, turnover, skills, diversity and wellbeing, to leaders or outside stakeholders; ISO 30414 is the international standard."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Agree one definition per metric and calculate it the same way every time.",
+      "Turnover uses average headcount; annualise partial periods; retention is not simply 100 minus turnover.",
+      "Segment by tenure, team, performance and group; regrettable turnover matters most.",
+      "Build a balanced dashboard; standards such as ISO 30414 help structure human capital reporting."
      ]
     },
     {
@@ -4973,6 +6182,29 @@ TRACK.modules.push({
      "answer": "Hypotheses could include pay, shift patterns (for example night shifts assigned to new joiners), supervisor quality, training length, commute distance, recruitment source and realistic job preview. The team should join hire and exit records with schedules, supervisor IDs, training records, quality scores, location and 30-day pulse surveys, then compare 90-day attrition across these segments, using simple models to control for overlapping factors. Suppose new agents assigned mostly night shifts in their first month leave at twice the rate, and attrition varies threefold between supervisors, while pay differences explain little. The presentation should lead with the business question, the main finding, the confidence level and the cost comparison, then propose a pilot: day-shift-first scheduling and supervisor coaching for half of the next intake, compared with the other half, before committing to a large pay increase."
     },
     {
+     "type": "chart",
+     "title": "90-day attrition by first-month shift pattern",
+     "kind": "bar",
+     "labels": [
+      "Mostly day",
+      "Mixed",
+      "Mostly night"
+     ],
+     "series": [
+      {
+       "name": "90-day attrition",
+       "values": [
+        26,
+        38,
+        52
+       ]
+      }
+     ],
+     "unit": "%",
+     "yLabel": "Left within 90 days",
+     "caption": "Illustrative result in line with the case: new agents given mostly night shifts leave at twice the rate of day-shift starters. A chart like this tests the leaders' pay hypothesis cheaply before a large pay increase is approved."
+    },
+    {
      "type": "keypoints",
      "title": "Telling the story with data",
      "items": [
@@ -4988,6 +6220,62 @@ TRACK.modules.push({
      "kind": "pro",
      "text": "Use the minimum data needed, aggregate results so individuals cannot be identified (for example, never report groups smaller than five or ten people), tell employees how their data is used, and do not use analytics to target individuals for adverse action without a fair human process. Check data protection laws before combining datasets.",
      "title": "Ethics and privacy by design"
+    },
+    {
+     "type": "sequence",
+     "title": "A privacy-safe analytics request",
+     "actors": [
+      "Leader",
+      "Analytics team",
+      "Privacy officer",
+      "HR systems"
+     ],
+     "steps": [
+      {
+       "from": "Leader",
+       "to": "Analytics team",
+       "label": "Business question and decision"
+      },
+      {
+       "from": "Analytics team",
+       "to": "Privacy officer",
+       "label": "Purpose, data needed, risks"
+      },
+      {
+       "from": "Privacy officer",
+       "to": "Analytics team",
+       "label": "Approved: minimum data, conditions",
+       "reply": true
+      },
+      {
+       "from": "Analytics team",
+       "to": "HR systems",
+       "label": "Requests pseudonymised extract"
+      },
+      {
+       "from": "HR systems",
+       "to": "Analytics team",
+       "label": "Coded IDs, no names",
+       "reply": true
+      },
+      {
+       "from": "Analytics team",
+       "to": "Analytics team",
+       "label": "Analyses; suppresses small groups",
+       "note": "e.g. fewer than 10 people"
+      },
+      {
+       "from": "Analytics team",
+       "to": "Leader",
+       "label": "Aggregated insight and confidence"
+      },
+      {
+       "from": "Leader",
+       "to": "Leader",
+       "label": "Decides; pilots the action"
+      }
+     ],
+     "caption": "Privacy is built into the steps, not added at the end: purpose and data are checked before extraction, names never leave the source system, and results are reported only for groups large enough to protect individuals. Thresholds vary; five or ten is common."
     },
     {
      "type": "scenario",
@@ -5051,6 +6339,17 @@ TRACK.modules.push({
        "term": "Minimum group size",
        "def": "A rule that results are only reported for groups large enough to prevent identifying individuals."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "People analytics moves from what happened to why, what next and what to do.",
+      "Start with a business question and hypotheses, and check data quality before analysis.",
+      "Correlation is not causation: use pilots and comparison groups.",
+      "Build privacy in: minimum data, pseudonymisation, minimum group sizes and no individual targeting without a fair process.",
+      "Tell the story with the answer first, a few charts, stated confidence and clear options."
      ]
     },
     {
@@ -5139,7 +6438,7 @@ TRACK.modules.push({
        "label": "Experience layer",
        "parts": [
         "Mobile app and employee portal",
-        "HR chatbot and knowledge base",
+        "AI assistant grounded in approved policies",
         "Self-service for employees and managers"
        ]
       },
@@ -5172,6 +6471,153 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "topology",
+     "title": "How HR systems connect (example)",
+     "nodes": [
+      {
+       "id": "ats",
+       "kind": "server",
+       "label": "ATS",
+       "sub": "Recruitment",
+       "x": 1,
+       "y": 0
+      },
+      {
+       "id": "lms",
+       "kind": "server",
+       "label": "Learning (LMS)",
+       "sub": "Courses, skills",
+       "x": 3,
+       "y": 0
+      },
+      {
+       "id": "perf",
+       "kind": "server",
+       "label": "Performance",
+       "sub": "Goals, reviews",
+       "x": 5,
+       "y": 0
+      },
+      {
+       "id": "idp",
+       "kind": "idp",
+       "label": "Identity (SSO)",
+       "sub": "MFA, access roles",
+       "x": 0,
+       "y": 2
+      },
+      {
+       "id": "core",
+       "kind": "db",
+       "label": "Core HRIS",
+       "sub": "System of record",
+       "x": 3,
+       "y": 2
+      },
+      {
+       "id": "pay",
+       "kind": "server",
+       "label": "Payroll",
+       "sub": "Pay, tax, deductions",
+       "x": 5,
+       "y": 2
+      },
+      {
+       "id": "bank",
+       "kind": "api",
+       "label": "Bank / wallets",
+       "sub": "Salary payments",
+       "x": 7,
+       "y": 2
+      },
+      {
+       "id": "dw",
+       "kind": "db",
+       "label": "Analytics store",
+       "sub": "Pseudonymised data",
+       "x": 1,
+       "y": 4
+      },
+      {
+       "id": "time",
+       "kind": "sensor",
+       "label": "Time clocks",
+       "sub": "Hours, attendance",
+       "x": 5,
+       "y": 4
+      },
+      {
+       "id": "app",
+       "kind": "phone",
+       "label": "Employee app",
+       "sub": "Self-service",
+       "x": 3,
+       "y": 5
+      }
+     ],
+     "links": [
+      {
+       "a": "ats",
+       "b": "core",
+       "label": "new hires"
+      },
+      {
+       "a": "lms",
+       "b": "core",
+       "label": "people, skills"
+      },
+      {
+       "a": "perf",
+       "b": "core",
+       "label": "goals, ratings"
+      },
+      {
+       "a": "idp",
+       "b": "core",
+       "label": "SSO + MFA",
+       "style": "dashed"
+      },
+      {
+       "a": "core",
+       "b": "pay",
+       "label": "pay data"
+      },
+      {
+       "a": "pay",
+       "b": "bank",
+       "label": "encrypted",
+       "style": "tunnel"
+      },
+      {
+       "a": "time",
+       "b": "pay",
+       "label": "hours"
+      },
+      {
+       "a": "core",
+       "b": "dw",
+       "label": "nightly, coded",
+       "style": "dashed"
+      },
+      {
+       "a": "app",
+       "b": "core",
+       "label": "API"
+      }
+     ],
+     "zones": [
+      {
+       "label": "HR cloud platform",
+       "x": 1,
+       "y": 0,
+       "w": 5,
+       "h": 3,
+       "tone": "accent"
+      }
+     ],
+     "caption": "The core HRIS is the single system of record: other systems read from it or write to it through integrations, and identity controls sign-in to all of them. Analytics data leaves in pseudonymised form on a schedule. Every line is an interface to build, test and secure."
+    },
+    {
      "type": "steps",
      "title": "Selecting an HR system",
      "items": [
@@ -5181,7 +6627,7 @@ TRACK.modules.push({
       },
       {
        "title": "Write requirements",
-       "text": "Separate must-haves from nice-to-haves, including local payroll, Bangla language support and mobile use if needed."
+       "text": "Separate must-haves from nice-to-haves, including local payroll and tax rules, local-language support and mobile use if needed."
       },
       {
        "title": "Shortlist vendors",
@@ -5287,6 +6733,12 @@ TRACK.modules.push({
     },
     {
      "type": "callout",
+     "kind": "insight",
+     "title": "AI inside HR platforms",
+     "text": "Most HR platforms now embed AI: drafting, search, skills inference from profiles, matching people to roles and, increasingly, agents that complete multi-step tasks such as scheduling interviews. Switch features on deliberately: check what data each one uses, whether it makes or supports decisions about people, how it has been tested for bias and whether it can be turned off. Treat any feature that ranks or recommends people as a selection or decision tool, with the governance described in the next lesson."
+    },
+    {
+     "type": "callout",
      "kind": "example",
      "text": "A knitwear group introduced kiosk and mobile self-service so workers could view payslips, leave balances and attendance in Bangla. Queries to HR offices fell by more than half, and errors in overtime were spotted and fixed faster because workers could see their own records.",
      "title": "Self-service for 12,000 workers"
@@ -5353,6 +6805,17 @@ TRACK.modules.push({
        "term": "Data migration",
        "def": "Moving data from old systems to a new one, including cleansing, mapping, loading and reconciling."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "Map processes before buying; write must-have requirements and use scripted demos with weighted scoring.",
+      "One system of record, integrated with payroll, identity and other tools, prevents conflicting data.",
+      "Migrations slip on data quality: cleanse, reconcile and run parallel payrolls.",
+      "Drive adoption by simplifying and supporting users; protect data with role-based access, MFA and audit logs.",
+      "Switch on embedded AI features deliberately and govern those that rank or recommend people."
      ]
     },
     {
@@ -5475,9 +6938,9 @@ TRACK.modules.push({
       ],
       [
        "Video or voice analysis of candidates",
-       "Claimed personality insight",
-       "Very high",
-       "Weak scientific basis; avoid or restrict severely"
+       "Claimed personality or emotion insight",
+       "Very high or prohibited",
+       "Weak scientific basis; inferring emotions at work is banned in the EU except for medical or safety reasons; avoid"
       ],
       [
        "Performance, promotion or dismissal decisions",
@@ -5536,6 +6999,45 @@ TRACK.modules.push({
      ]
     },
     {
+     "type": "matrix",
+     "title": "Where AI belongs in HR decisions",
+     "x": "Automation (assists → decides)",
+     "y": "Impact on a person's livelihood",
+     "quadrants": [
+      {
+       "title": "Decision support, governed",
+       "items": [
+        "CV shortlisting with human review",
+        "Inputs to promotion or pay",
+        "Bias audit, notice, appeal"
+       ]
+      },
+      {
+       "title": "Avoid or prohibited",
+       "items": [
+        "Automatic rejection or dismissal",
+        "Emotion or personality inference",
+        "Covert productivity scoring"
+       ]
+      },
+      {
+       "title": "Low risk, human-checked",
+       "items": [
+        "Drafting job ads and policies",
+        "Summarising anonymised comments"
+       ]
+      },
+      {
+       "title": "Automate with checks",
+       "items": [
+        "Interview scheduling",
+        "Policy chatbot with escalation"
+       ]
+      }
+     ],
+     "caption": "The greater the impact on someone's job or income, the more a person must decide and the more evidence the tool needs. Moving any use case to the right (more automation) needs a fresh risk assessment."
+    },
+    {
      "type": "formula",
      "title": "Checking an AI screening tool for bias",
      "items": [
@@ -5559,8 +7061,40 @@ TRACK.modules.push({
     {
      "type": "callout",
      "kind": "insight",
-     "text": "Rules are moving fast. The European Union's AI Act treats AI used for recruitment, promotion, termination, task allocation and worker monitoring as high-risk, with obligations phasing in over several years. Some cities and states require independent bias audits and candidate notices for automated hiring tools. Many countries, including in South Asia, are introducing or updating data protection laws. Check the rules in every country where you hire.",
+     "text": "Rules are moving fast. The **EU AI Act** entered into force in August 2024. Bans on certain practices, including AI that infers emotions in the workplace (outside medical or safety uses), have applied since February 2025. AI used for recruitment and selection, decisions on promotion and termination, allocating tasks based on behaviour or personal traits, and monitoring or evaluating workers is classed as **high-risk**. Employers using such systems must follow the provider's instructions, assign trained people to oversee them, keep the logs, monitor how they work and inform workers' representatives and affected workers before use. These high-risk duties were scheduled to apply from August 2026, and in late 2025 the European Commission proposed delaying them, so **check the current official timetable**. Elsewhere, some US jurisdictions require bias audits and candidate notices for automated hiring tools, and many countries, including in South Asia, are introducing or updating data protection laws. Check the rules in every country where you hire or employ people.",
      "title": "The regulatory direction is clear"
+    },
+    {
+     "type": "timeline",
+     "title": "EU AI Act: dates that matter for HR",
+     "items": [
+      {
+       "when": "Aug 2024",
+       "label": "In force",
+       "text": "Regulation published; duties phase in"
+      },
+      {
+       "when": "Feb 2025",
+       "label": "Bans and AI literacy",
+       "text": "Prohibited practices, including emotion inference at work; staff AI literacy"
+      },
+      {
+       "when": "Aug 2025",
+       "label": "General-purpose AI",
+       "text": "Rules for providers of general-purpose models; governance and penalties"
+      },
+      {
+       "when": "Aug 2026",
+       "label": "High-risk, as scheduled",
+       "text": "Original start for listed uses, including employment"
+      },
+      {
+       "when": "Up to late 2027",
+       "label": "High-risk, if delayed",
+       "text": "A 2025 proposal would push the start back; check the adopted timetable"
+      }
+     ],
+     "caption": "Dates from the regulation as adopted, plus a proposed change that was still being decided at the time of writing. Plan to meet high-risk duties for hiring and people-management tools whatever the final date."
     },
     {
      "type": "steps",
@@ -5595,6 +7129,66 @@ TRACK.modules.push({
        "text": "Track performance and bias regularly and after any model change."
       }
      ]
+    },
+    {
+     "type": "sequence",
+     "title": "AI-assisted screening with real human oversight",
+     "actors": [
+      "Candidate",
+      "ATS + AI tool",
+      "Recruiter",
+      "HR governance"
+     ],
+     "steps": [
+      {
+       "from": "Candidate",
+       "to": "ATS + AI tool",
+       "label": "Applies; told AI assists screening"
+      },
+      {
+       "from": "ATS + AI tool",
+       "to": "Recruiter",
+       "label": "Ranked list with reasons per criterion"
+      },
+      {
+       "from": "Recruiter",
+       "to": "Recruiter",
+       "label": "Reviews borderline and sampled rejects"
+      },
+      {
+       "from": "Recruiter",
+       "to": "Candidate",
+       "label": "Decision made by a person"
+      },
+      {
+       "from": "Candidate",
+       "to": "Recruiter",
+       "label": "Asks for a human review"
+      },
+      {
+       "from": "Recruiter",
+       "to": "Candidate",
+       "label": "Re-review and explanation",
+       "reply": true
+      },
+      {
+       "from": "ATS + AI tool",
+       "to": "HR governance",
+       "label": "Logs and outcomes by group"
+      },
+      {
+       "from": "HR governance",
+       "to": "HR governance",
+       "label": "Impact ratios every round",
+       "note": "re-audit after any model change"
+      },
+      {
+       "from": "HR governance",
+       "to": "ATS + AI tool",
+       "label": "Adjust or suspend if bias is found"
+      }
+     ],
+     "caption": "Oversight is designed into the flow: candidates are told, a person makes and can explain each decision, people can ask for a review, and governance checks outcomes by group every round, not once a year."
     },
     {
      "type": "template",
@@ -5695,7 +7289,22 @@ TRACK.modules.push({
       {
        "term": "Employee monitoring",
        "def": "Collecting data on employees' activities, location or communications, which must be lawful, proportionate and transparent."
+      },
+      {
+       "term": "High-risk AI system",
+       "def": "Under the EU AI Act, an AI system in a listed sensitive use, including recruitment, promotion, termination, task allocation and worker monitoring, that must meet strict duties on oversight, logging and transparency."
       }
+     ]
+    },
+    {
+     "type": "keypoints",
+     "title": "Key takeaways",
+     "items": [
+      "AI can save time in HR but can also discriminate at scale; many regulators treat employment uses as high-risk.",
+      "Removing protected attributes does not remove proxies: test outcomes with impact ratios before and after launch.",
+      "Keep meaningful human oversight: reviewers with authority, time and information, and a route for people to challenge.",
+      "Track the rules: the EU AI Act bans emotion inference at work and sets high-risk duties for hiring and people-management tools.",
+      "Govern each use case with an impact assessment, vendor evidence, a pilot, transparency and re-audits."
      ]
     },
     {
@@ -5755,6 +7364,17 @@ TRACK.modules.push({
        ],
        "answer": 1,
        "explain": "Confidential data must only go into approved, secure tools."
+      },
+      {
+       "q": "A company in an EU member state plans to use a high-risk AI system to allocate shifts based on workers' past behaviour. Which duty applies to it as the employer using the system?",
+       "options": [
+        "Publish the model's source code on the company intranet",
+        "Let the vendor make every allocation decision without review",
+        "Stop recording any logs so that worker privacy is protected",
+        "Inform workers' representatives and affected workers before putting it into use"
+       ],
+       "answer": 3,
+       "explain": "Employers deploying high-risk AI at work must inform workers' representatives and affected workers before use, assign human oversight and keep logs. Handing all decisions to the vendor or deleting logs breaches these duties, and publishing source code is not required."
       }
      ]
     }
@@ -5933,7 +7553,7 @@ TRACK.exam.push([
  },
  {
   "module": "m6",
-  "q": "An HR officer at a Bangladeshi manufacturer is unsure whether the company's maternity leave policy matches the current law, as she heard the rules may have changed. What should she do?",
+  "q": "An HR officer at a manufacturer is unsure whether the company's maternity leave policy matches the current law, as she heard the rules may have changed. What should she do?",
   "options": [
    "Check the current official text and rules, and take legal advice if unclear",
    "Rely on what other HR managers say in an online professional group",
@@ -6109,7 +7729,7 @@ TRACK.exam.push([
    "Launch it and review the results after a year"
   ],
   "answer": 1,
-  "explain": "0.27 ÷ 0.45 = 0.60, well below 0.80. The tool needs investigation and correction before use. Ignoring gender data hides the problem."
+  "explain": "0.27 ÷ 0.45 = 0.60, well below 0.80. The tool needs investigation and correction before use, and candidates should be told when AI is used. Ignoring gender data hides the problem, and a year of live use would harm many applicants first."
  },
  {
   "module": "m8",
@@ -6121,6 +7741,6 @@ TRACK.exam.push([
    "Restrict answers to approved policies, add escalation to a person and monitor accuracy"
   ],
   "answer": 3,
-  "explain": "Grounding answers in approved content, providing human escalation and monitoring accuracy address the risk while keeping the benefit. A disclaimer shifts risk unfairly, and a ban or manual checks lose the value."
+  "explain": "Grounding answers in approved content, providing human escalation and monitoring accuracy address the risk while keeping the benefit. A disclaimer shifts risk unfairly, and a ban or manual checks lose the value. Accuracy checks should be repeated whenever the policies or the underlying model change."
  }
 ]);

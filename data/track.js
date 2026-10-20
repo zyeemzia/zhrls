@@ -37,11 +37,11 @@ TRACK.meta = {
       "Onboarding plan for the first 90 days and a talent review with a succession plan for two key roles",
       "Learning needs analysis and a blended learning design with an evaluation plan",
       "Performance management cycle: goal template, check-in guide, calibration rules and a PIP template",
-      "Reward framework: job evaluation approach, grade structure with ranges and a pay equity check",
+      "Reward framework: job evaluation approach, grade structure with ranges, a pay equity check and a pay transparency readiness review",
       "Employee relations and engagement plan, including grievance and discipline procedures checked against local law",
       "Inclusion and wellbeing actions with measurable targets",
       "Leadership and change plan for one major change, including a coaching approach for managers",
-      "HR metrics dashboard with formulas, plus a responsible-use policy for HR technology and AI"
+      "HR metrics dashboard with formulas, plus a responsible-use policy for HR technology and AI with human oversight and bias checks"
     ],
     "rubric": [
       { "criterion": "Strategic alignment", "levels": ["HR activity listed without business link", "Priorities linked to business goals", "Workforce plan with scenarios, gaps and measurable outcomes"] },
